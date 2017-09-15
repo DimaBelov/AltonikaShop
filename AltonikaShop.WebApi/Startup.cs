@@ -43,7 +43,8 @@ namespace AltonikaShop.WebApi
             services
                 .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME))
                 .AddScoped<IUserService, UserService>()
-                .AddScoped<IProductService, ProductService>();
+                .AddScoped<IProductService, ProductService>()
+                .AddScoped<IOrderService, OrderService>();
 
             services.AddSwagger();
         }

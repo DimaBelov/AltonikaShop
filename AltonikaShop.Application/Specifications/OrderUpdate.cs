@@ -1,10 +1,11 @@
-﻿using CoreLib.Data;
+﻿using AltonikaShop.Domain.Entities;
+using CoreLib.Data;
 
 namespace AltonikaShop.Application.Specifications
 {
     sealed class OrderUpdate : DbSpecification
     {
-        public OrderUpdate()
+        public OrderUpdate(Order order)
         {
             
         }

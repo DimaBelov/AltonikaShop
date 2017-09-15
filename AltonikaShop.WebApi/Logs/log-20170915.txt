@@ -221,3 +221,330 @@
 2017-09-15 11:55:49.913 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1375.4548ms
 2017-09-15 11:55:49.975 [Information] Request finished in 1405.042ms 200 application/json; charset=utf-8
 2017-09-15 11:55:49.988 [Information] Request finished in 1407.5145ms 200 application/json; charset=utf-8
+2017-09-15 12:32:53.029 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:32:53.035 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:32:53.049 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:32:53.055 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 19.6291ms
+2017-09-15 12:32:53.090 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:32:53.090 [Information] Request finished in 57.8205ms 200 application/json; charset=utf-8
+2017-09-15 12:32:53.099 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:32:53.106 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:32:53.112 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 12.8705ms
+2017-09-15 12:32:53.118 [Information] Request finished in 59.1596ms 200 application/json; charset=utf-8
+2017-09-15 12:33:12.449 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:12.455 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:12.463 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:12.467 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 13.078ms
+2017-09-15 12:33:12.472 [Information] Request finished in 23.4377ms 200 application/json; charset=utf-8
+2017-09-15 12:33:12.488 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:12.493 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:12.500 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:12.505 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 11.2382ms
+2017-09-15 12:33:12.509 [Information] Request finished in 21.6733ms 200 application/json; charset=utf-8
+2017-09-15 12:33:21.791 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:21.796 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:21.802 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:21.806 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.7215ms
+2017-09-15 12:33:21.811 [Information] Request finished in 20.1543ms 200 application/json; charset=utf-8
+2017-09-15 12:33:21.826 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:21.831 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:21.838 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:21.843 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 11.5131ms
+2017-09-15 12:33:21.850 [Information] Request finished in 22.9241ms 200 application/json; charset=utf-8
+2017-09-15 12:33:50.295 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:50.300 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:50.307 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:50.311 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.8924ms
+2017-09-15 12:33:50.319 [Information] Request finished in 20.3587ms 200 application/json; charset=utf-8
+2017-09-15 12:33:50.329 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:33:50.334 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:33:50.342 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:33:50.347 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 12.3226ms
+2017-09-15 12:33:50.352 [Information] Request finished in 22.879ms 200 application/json; charset=utf-8
+2017-09-15 12:34:21.371 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:34:21.376 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:34:21.386 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:34:21.391 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 14.452ms
+2017-09-15 12:34:21.402 [Information] Request finished in 24.4448ms 200 application/json; charset=utf-8
+2017-09-15 12:34:21.473 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:34:21.478 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:34:21.484 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:34:21.489 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.9883ms
+2017-09-15 12:34:21.495 [Information] Request finished in 20.6862ms 200 application/json; charset=utf-8
+2017-09-15 12:34:26.327 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:34:26.332 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:34:26.337 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:34:26.342 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.0102ms
+2017-09-15 12:34:26.347 [Information] Request finished in 19.0517ms 200 application/json; charset=utf-8
+2017-09-15 12:34:26.366 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:34:26.371 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:34:26.378 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:34:26.382 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.8589ms
+2017-09-15 12:34:26.388 [Information] Request finished in 21.7326ms 200 application/json; charset=utf-8
+2017-09-15 12:48:06.979 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-15 12:48:06.979 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-15 12:48:07.276 [Information] Request finished in 370.1821ms 200 
+2017-09-15 12:48:07.593 [Information] Request finished in 693.7825ms 404 
+2017-09-15 12:48:07.608 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-15 12:48:07.613 [Information] Request finished in 5.2052ms 404 
+2017-09-15 12:49:00.619 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:00.664 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:00.877 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:00.877 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:02.683 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:02.683 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:02.779 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2010.8995ms
+2017-09-15 12:49:02.779 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2010.9232ms
+2017-09-15 12:49:02.817 [Information] Request finished in 2194.4795ms 200 application/json; charset=utf-8
+2017-09-15 12:49:02.819 [Information] Request finished in 2148.646ms 200 application/json; charset=utf-8
+2017-09-15 12:49:17.165 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:17.170 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:17.183 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:17.187 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 16.5234ms
+2017-09-15 12:49:17.193 [Information] Request finished in 26.3864ms 200 application/json; charset=utf-8
+2017-09-15 12:49:17.207 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:17.212 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:17.219 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:17.227 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 12.6367ms
+2017-09-15 12:49:17.231 [Information] Request finished in 24.5497ms 200 application/json; charset=utf-8
+2017-09-15 12:49:23.227 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:23.236 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:23.245 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:23.255 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 16.0936ms
+2017-09-15 12:49:23.267 [Information] Request finished in 36.1382ms 200 application/json; charset=utf-8
+2017-09-15 12:49:23.396 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:49:23.405 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:49:23.413 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:49:23.422 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 18.9825ms
+2017-09-15 12:49:23.431 [Information] Request finished in 32.9276ms 200 application/json; charset=utf-8
+2017-09-15 12:50:00.424 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:50:00.485 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:50:00.511 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:50:00.524 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:50:00.541 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:50:00.575 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 104.1043ms
+2017-09-15 12:50:00.583 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:50:00.617 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 81.9811ms
+2017-09-15 12:50:00.644 [Information] Request finished in 162.4987ms 200 application/json; charset=utf-8
+2017-09-15 12:50:00.696 [Information] Request finished in 204.62ms 200 application/json; charset=utf-8
+2017-09-15 12:50:04.791 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:50:04.792 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:50:04.810 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:50:04.838 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:50:04.843 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:50:04.847 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 42.0008ms
+2017-09-15 12:50:04.850 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:50:04.866 [Information] Request finished in 64.5737ms 200 application/json; charset=utf-8
+2017-09-15 12:50:04.897 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 23.0927ms
+2017-09-15 12:50:04.902 [Information] Request finished in 115.4059ms 200 application/json; charset=utf-8
+2017-09-15 12:50:11.290 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-15 12:50:11.302 [Information] Request finished in 10.597ms 204 
+2017-09-15 12:50:11.329 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 335
+2017-09-15 12:50:11.495 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments ([""]) - ModelState is Invalid
+2017-09-15 12:50:17.532 [Error] Exception handeled by ExceptionFilter
+System.ArgumentNullException: Value cannot be null.
+Parameter name: order
+   at AltonikaShop.WebApi.Controllers.OrderController.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\OrderController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-15 12:50:17.576 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-15 12:50:17.624 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 6272.2126ms
+2017-09-15 12:50:17.631 [Information] Request finished in 6322.8194ms 400 application/json; charset=utf-8
+2017-09-15 12:52:01.600 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-15 12:52:01.611 [Information] Request finished in 5.9352ms 204 
+2017-09-15 12:52:01.620 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 395
+2017-09-15 12:52:01.733 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-15 12:52:18.183 [Error] Exception handeled by ExceptionFilter
+System.Data.SqlClient.SqlException: Could not find stored procedure 'Order_Update'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CoreLib.Data.GenericRepository.<>c__DisplayClass15_0.<Execute>b__0(IDbConnection connection)
+   at CoreLib.Data.GenericRepository.ExecuteWithHandleDeadlock[T](Func`1 func)
+   at CoreLib.Data.GenericRepository.ExecuteCommand[T](Func`2 executeCommand)
+   at AltonikaShop.Application.Services.OrderService.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.Application\Services\OrderService.cs:line 16
+   at AltonikaShop.WebApi.Controllers.OrderController.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\OrderController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+ClientConnectionId:f8fbcfd2-5c25-4de5-93ac-0b5cb6d50bb0
+Error Number:2812,State:62,Class:16
+2017-09-15 12:52:18.225 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-15 12:52:18.232 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 16604.7455ms
+2017-09-15 12:52:18.256 [Information] Request finished in 16622.314ms 400 application/json; charset=utf-8
+2017-09-15 12:53:24.742 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/user  
+2017-09-15 12:53:24.747 [Information] Request finished in 9.5765ms 204 
+2017-09-15 12:53:24.763 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/user application/json 36
+2017-09-15 12:53:24.771 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-15 12:53:24.812 [Information] Executing JsonResult, writing value "".
+2017-09-15 12:53:24.816 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 47.7897ms
+2017-09-15 12:53:24.823 [Information] Request finished in 59.3078ms 200 application/json; charset=utf-8
+2017-09-15 12:53:37.093 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/user  
+2017-09-15 12:53:37.099 [Information] Request finished in 5.4047ms 204 
+2017-09-15 12:53:37.108 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/user application/json 36
+2017-09-15 12:53:37.115 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-15 12:53:37.123 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-15 12:53:37.128 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 13.7251ms
+2017-09-15 12:53:37.134 [Information] Request finished in 24.4305ms 200 application/json; charset=utf-8
+2017-09-15 12:53:37.157 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:53:37.163 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:53:37.166 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:53:37.180 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:53:37.179 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:53:37.190 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 24.1191ms
+2017-09-15 12:53:37.197 [Information] Request finished in 38.8277ms 200 application/json; charset=utf-8
+2017-09-15 12:53:37.217 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:53:37.230 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 49.3377ms
+2017-09-15 12:53:37.236 [Information] Request finished in 69.4104ms 200 application/json; charset=utf-8
+2017-09-15 12:53:58.436 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-15 12:53:58.451 [Information] Request finished in 4.9116ms 204 
+2017-09-15 12:53:58.476 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 395
+2017-09-15 12:53:58.485 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-15 12:55:02.493 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-15 12:55:02.560 [Information] Request finished in 71.9807ms 204 
+2017-09-15 12:55:02.630 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 395
+2017-09-15 12:55:02.678 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-15 12:55:09.034 [Error] Exception handeled by ExceptionFilter
+System.Data.SqlClient.SqlException: Could not find stored procedure 'Order_Update'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CoreLib.Data.GenericRepository.<>c__DisplayClass15_0.<Execute>b__0(IDbConnection connection)
+   at CoreLib.Data.GenericRepository.ExecuteWithHandleDeadlock[T](Func`1 func)
+   at CoreLib.Data.GenericRepository.ExecuteCommand[T](Func`2 executeCommand)
+   at AltonikaShop.Application.Services.OrderService.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.Application\Services\OrderService.cs:line 16
+   at AltonikaShop.WebApi.Controllers.OrderController.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\OrderController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+ClientConnectionId:3c130bfb-3375-424e-a2b5-ea451dad54cc
+Error Number:2812,State:62,Class:16
+2017-09-15 12:55:09.045 [Error] Exception handeled by ExceptionFilter
+System.Data.SqlClient.SqlException: Could not find stored procedure 'Order_Update'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CoreLib.Data.GenericRepository.<>c__DisplayClass15_0.<Execute>b__0(IDbConnection connection)
+   at CoreLib.Data.GenericRepository.ExecuteWithHandleDeadlock[T](Func`1 func)
+   at CoreLib.Data.GenericRepository.ExecuteCommand[T](Func`2 executeCommand)
+   at AltonikaShop.Application.Services.OrderService.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.Application\Services\OrderService.cs:line 16
+   at AltonikaShop.WebApi.Controllers.OrderController.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\OrderController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+ClientConnectionId:3c130bfb-3375-424e-a2b5-ea451dad54cc
+Error Number:2812,State:62,Class:16
+2017-09-15 12:55:09.088 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-15 12:55:09.094 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 70608.6451ms
+2017-09-15 12:55:09.107 [Information] Request finished in 70648.4527ms 400 application/json; charset=utf-8
+2017-09-15 12:55:09.120 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-15 12:55:09.125 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 6475.9678ms
+2017-09-15 12:55:09.156 [Information] Request finished in 6547.368ms 400 application/json; charset=utf-8
+2017-09-15 12:55:12.927 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/user  
+2017-09-15 12:55:12.933 [Information] Request finished in 5.2182ms 204 
+2017-09-15 12:55:12.941 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/user application/json 36
+2017-09-15 12:55:12.948 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-15 12:55:12.957 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-15 12:55:12.963 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 15.5434ms
+2017-09-15 12:55:12.968 [Information] Request finished in 26.9232ms 200 application/json; charset=utf-8
+2017-09-15 12:55:12.994 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:55:13.000 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:55:13.003 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/product  
+2017-09-15 12:55:13.014 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-15 12:55:13.019 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:55:13.025 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-15 12:55:13.027 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 24.4819ms
+2017-09-15 12:55:13.037 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 19.7978ms
+2017-09-15 12:55:13.039 [Information] Request finished in 43.0048ms 200 application/json; charset=utf-8
+2017-09-15 12:55:13.058 [Information] Request finished in 45.2096ms 200 application/json; charset=utf-8
+2017-09-15 12:55:20.359 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-15 12:55:20.365 [Information] Request finished in 4.9147ms 204 
+2017-09-15 12:55:20.373 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 402
+2017-09-15 12:55:20.403 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-15 12:55:27.958 [Error] Exception handeled by ExceptionFilter
+System.Data.SqlClient.SqlException: Could not find stored procedure 'Order_Update'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CoreLib.Data.GenericRepository.<>c__DisplayClass15_0.<Execute>b__0(IDbConnection connection)
+   at CoreLib.Data.GenericRepository.ExecuteWithHandleDeadlock[T](Func`1 func)
+   at CoreLib.Data.GenericRepository.ExecuteCommand[T](Func`2 executeCommand)
+   at AltonikaShop.Application.Services.OrderService.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.Application\Services\OrderService.cs:line 16
+   at AltonikaShop.WebApi.Controllers.OrderController.Update(Order order) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\OrderController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+ClientConnectionId:f8fbcfd2-5c25-4de5-93ac-0b5cb6d50bb0
+Error Number:2812,State:62,Class:16
+2017-09-15 12:55:27.998 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-15 12:55:28.003 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 7621.019ms
+2017-09-15 12:55:28.021 [Information] Request finished in 7638.7138ms 400 application/json; charset=utf-8
