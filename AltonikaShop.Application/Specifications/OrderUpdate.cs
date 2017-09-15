@@ -7,7 +7,8 @@ namespace AltonikaShop.Application.Specifications
     {
         public OrderUpdate(Order order)
         {
-            
+            AddParameter("@user_id", order.User.Id);
+            AddTableParameter("@details", order.BasketItems, BasketItem.Tvp);
         }
 
         protected override string CreateCommandText()
