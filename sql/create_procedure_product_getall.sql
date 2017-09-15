@@ -1,0 +1,5 @@
+ALTER PROCEDURE Product_GetAll
+AS
+BEGIN
+	SELECT * FROM Product
+END
