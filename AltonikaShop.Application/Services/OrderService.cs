@@ -11,9 +11,9 @@ namespace AltonikaShop.Application.Services
         {
         }
 
-        public void Update(Order order)
+        public int Update(Order order)
         {
-            Execute(new OrderUpdate(order));
+            return Get<int>(new OrderUpdate(order));
         }
     }
 }

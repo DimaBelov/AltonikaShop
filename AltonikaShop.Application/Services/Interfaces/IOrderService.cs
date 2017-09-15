@@ -4,6 +4,6 @@ namespace AltonikaShop.Application.Services.Interfaces
 {
     public interface IOrderService
     {
-        void Update(Order order);
+        int Update(Order order);
     }
 }

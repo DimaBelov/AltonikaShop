@@ -5,7 +5,7 @@
 
 CREATE TABLE OrderDetails (
     order_detail_id int IDENTITY(1,1) PRIMARY KEY,
+    order_id int NOT NULL FOREIGN KEY REFERENCES Orders(order_id),
 	product_id int NOT NULL,
-	quantity int NOT NULL,
-    order_id int NOT NULL FOREIGN KEY REFERENCES Orders(order_id)
+	quantity int NOT NULL
 );

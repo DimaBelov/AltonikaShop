@@ -16,12 +16,12 @@ namespace AltonikaShop.WebApi.Controllers
         }
 
         [HttpPost]
-        public void Update([FromBody] Order order)
+        public IActionResult Update([FromBody] Order order)
         {
             if (order == null)
                 throw new ArgumentNullException(nameof(order));
 
-            _orderService.Update(order);
+            return Json(_orderService.Update(order));
         }
     }
 }
