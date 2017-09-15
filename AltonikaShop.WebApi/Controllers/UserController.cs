@@ -21,8 +21,7 @@ namespace AltonikaShop.WebApi.Controllers
             if(user == null)
                 throw new ArgumentNullException(nameof(user));
 
-            //return Json(_userService.Auth(user));
-            return Json(user);
+            return Json(_userService.Auth(user));
         }
     }
 }
