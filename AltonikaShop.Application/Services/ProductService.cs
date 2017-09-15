@@ -16,5 +16,10 @@ namespace AltonikaShop.Application.Services
         {
             return GetAll<Product>(new ProductGetAll());
         }
+
+        public Product GetById(int id)
+        {
+            return Get<Product>(new ProductGetById(id));
+        }
     }
 }

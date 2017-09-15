@@ -1,4 +1,5 @@
-﻿using AltonikaShop.Application.Services.Interfaces;
+﻿using System;
+using AltonikaShop.Application.Services.Interfaces;
 using AltonikaShop.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +19,15 @@ namespace AltonikaShop.WebApi.Controllers
         public IActionResult GetAll()
         {
             return Json(_productService.GetAll());
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int? id)
+        {
+            if(id == null)
+                throw new ArgumentNullException(nameof(id));
+
+            return Json(_productService.GetById(id.Value));
         }
     }
 }

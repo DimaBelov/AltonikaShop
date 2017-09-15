@@ -22,6 +22,7 @@ BEGIN
 		INSERT INTO OrderDetails (product_id, quantity, order_id)
 		SELECT product_id, quantity, @order_id FROM @details
         
+		SELECT @order_id
         COMMIT TRANSACTION
     END TRY
     BEGIN CATCH
