@@ -1,43 +1,51 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CoreLib.Data;
+using CoreLib.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace AltonikaShop.WebApi
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env)
+        const string DB_CONNECTION_NAME = "Default";
+
+        public Startup(IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            var builder = new ConfigurationBuilder()
+            Configuration = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
-            Configuration = builder.Build();
+                .AddJsonFile("appsettings.json", false, true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true)
+                .AddEnvironmentVariables()
+                .AddHostingEnvironment(env)
+                .Build();
+
+            loggerFactory.Default(Configuration);
         }
 
         public IConfigurationRoot Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Add framework services.
-            services.AddMvc();
+            ConnectionManager.Register(Configuration);
+
+            services.AddMvc(options => options.AddExceptionFilter());
+
+            services
+                .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME));
+
+            services.AddSwagger();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
         {
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-
-            app.UseMvc();
+            app.UseSwaggerWithUi(serviceProvider.GetService<Info>())
+                .UseMetrics(configuration => configuration.MemStatInterval = TimeSpan.FromSeconds(5))
+                .UseMvc();
         }
     }
 }
