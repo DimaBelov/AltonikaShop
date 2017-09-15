@@ -1,11 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using CoreLib.Data.Mapping;
 
 namespace AltonikaShop.Domain.Entities
 {
     public class Order
     {
-        public List<BasketItem> BasketItems { get; set; }
+        [DatabaseMap("order_id")]
+        public int? Id { get; set; }
 
-        public User User { get; set; }
+        [DatabaseMap("user_id")]
+        public int? UserId { get; set; }
+
+        [DatabaseMap("create_dt")]
+        public DateTime? CreateDate { get; set; }
+
+        public List<OrderDetail> Details { get; set; }
     }
 }

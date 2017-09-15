@@ -15,7 +15,7 @@ BEGIN
         --    FROM    OrderDetails
         --    WHERE   OrderId = @orderId
                     
-		INSERT INTO Orders (user_id) VALUES (@user_id)
+		INSERT INTO Orders (user_id, create_dt) VALUES (@user_id, GETDATE())
 
 		SET @order_id = SCOPE_IDENTITY();
         

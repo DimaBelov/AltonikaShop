@@ -1,6 +1,6 @@
 ﻿using System;
 using AltonikaShop.Application.Services.Interfaces;
-using AltonikaShop.Domain.Entities;
+using AltonikaShop.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AltonikaShop.WebApi.Controllers
@@ -16,12 +16,21 @@ namespace AltonikaShop.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update([FromBody] Order order)
+        public IActionResult Update([FromBody] OrderModel model)
         {
-            if (order == null)
-                throw new ArgumentNullException(nameof(order));
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
 
-            return Json(_orderService.Update(order));
+            return Json(_orderService.Update(model.BasketItems, model.User));
+        }
+
+        [HttpGet("user/{userId}")]
+        public IActionResult GetByUser(int? userId)
+        {
+            if(!userId.HasValue)
+                throw new ArgumentNullException(nameof(userId));
+
+            return Json(_orderService.GetByUser(userId.Value));
         }
     }
 }
