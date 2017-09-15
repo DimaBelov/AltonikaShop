@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using AltonikaShop.Domain.Entities;
 
 namespace AltonikaShop.Application.Services.Interfaces
 {
-    interface IProductService
+    public interface IProductService
     {
+        IEnumerable<Product> GetAll();
     }
 }

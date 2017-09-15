@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AltonikaShop.Domain.Entities;
 
 namespace AltonikaShop.Application.Services.Interfaces
 {
-    interface IUserService
+    public interface IUserService
     {
+        User Auth(User user);
     }
 }

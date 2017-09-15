@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AltonikaShop.Application.Services.Interfaces;
+using CoreLib.Data;
 
 namespace AltonikaShop.Application.Services
 {
-    class OrderService
+    public class OrderService : GenericService, IOrderService
     {
+        public OrderService(IGenericRepository genericRepository) : base(genericRepository)
+        {
+        }
     }
 }

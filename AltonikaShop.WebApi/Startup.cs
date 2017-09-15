@@ -1,4 +1,6 @@
 ﻿using System;
+using AltonikaShop.Application.Services;
+using AltonikaShop.Application.Services.Interfaces;
 using CoreLib.Data;
 using CoreLib.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -36,7 +38,9 @@ namespace AltonikaShop.WebApi
             services.AddMvc(options => options.AddExceptionFilter());
 
             services
-                .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME));
+                .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME))
+                .AddScoped<IUserService, UserService>()
+                .AddScoped<IProductService, ProductService>();
 
             services.AddSwagger();
         }
