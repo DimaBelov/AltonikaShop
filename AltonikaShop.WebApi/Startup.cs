@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using AltonikaShop.Application.Services;
 using AltonikaShop.Application.Services.Interfaces;
 using CoreLib.Data;
@@ -15,7 +17,8 @@ namespace AltonikaShop.WebApi
     public class Startup
     {
         const string DB_CONNECTION_NAME = "Default";
-
+        const string ALLOWED_ORIGINS_CONFIG_NAME = "AllowedOrigins";
+        
         public Startup(IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             Configuration = new ConfigurationBuilder()
@@ -47,6 +50,12 @@ namespace AltonikaShop.WebApi
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
         {
+            app.UseCors(builder =>
+                builder
+                    .WithOrigins(Configuration.GetSection(ALLOWED_ORIGINS_CONFIG_NAME).Get<IEnumerable<string>>().ToArray())
+                    .AllowAnyHeader()
+                    .AllowAnyMethod());
+
             app.UseSwaggerWithUi(serviceProvider.GetService<Info>())
                 .UseMetrics(configuration => configuration.MemStatInterval = TimeSpan.FromSeconds(5))
                 .UseMvc();

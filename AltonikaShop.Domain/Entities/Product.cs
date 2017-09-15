@@ -8,5 +8,8 @@ namespace AltonikaShop.Domain.Entities
     {
         [DatabaseMap("product_description")]
         public string Description { get; set; }
+        
+        [DatabaseMap("img_src")]
+        public string ImageSource { get; set; }
     }
 }
