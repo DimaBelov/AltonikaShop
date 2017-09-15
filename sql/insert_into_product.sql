@@ -8,7 +8,7 @@
 --(
 --	'Product5',
 --	'This is Product5',
---	'https://www.mirsmazok.ru/images/orig_574_1297638132arFz4e8Hrd.jpg'
+--	'https://www.acesled.com/wp-content/uploads/2015/01/Prod02.png'
 --)
 
 --DELETE FROM Product
