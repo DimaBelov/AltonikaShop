@@ -1,5 +1,6 @@
 --CREATE TABLE Users (
 --    user_id int IDENTITY(1,1) PRIMARY KEY,
+-- user_name nvarchar(255) NOT NULL,
 --    user_login nvarchar(255) NOT NULL,
 --	user_password nvarchar(255) NOT NULL
 --);

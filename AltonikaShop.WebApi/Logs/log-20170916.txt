@@ -1,0 +1,294 @@
+2017-09-16 10:01:11.834 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:01:11.842 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:01:11.854 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:01:11.854 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 11.8585ms
+2017-09-16 10:01:11.855 [Information] Request finished in 20.3449ms 200 application/json; charset=utf-8
+2017-09-16 10:01:11.858 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:01:11.859 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:01:11.861 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:01:11.861 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.6479ms
+2017-09-16 10:01:11.862 [Information] Request finished in 3.6934ms 200 application/json; charset=utf-8
+2017-09-16 10:01:24.506 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:01:24.507 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:01:24.509 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:01:24.509 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.6144ms
+2017-09-16 10:01:24.510 [Information] Request finished in 3.7023ms 200 application/json; charset=utf-8
+2017-09-16 10:01:24.523 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:01:24.524 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:01:24.526 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:01:24.526 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.51ms
+2017-09-16 10:01:24.526 [Information] Request finished in 3.5319ms 200 application/json; charset=utf-8
+2017-09-16 10:01:28.277 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:01:28.278 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:01:28.280 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:01:28.281 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.8768ms
+2017-09-16 10:01:28.281 [Information] Request finished in 4.0325ms 200 application/json; charset=utf-8
+2017-09-16 10:02:06.278 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:02:06.279 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:02:06.301 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:02:06.301 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 22.3105ms
+2017-09-16 10:02:06.302 [Information] Request finished in 23.7197ms 200 application/json; charset=utf-8
+2017-09-16 10:02:06.304 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:02:06.306 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:02:06.309 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:02:06.309 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.6653ms
+2017-09-16 10:02:06.310 [Information] Request finished in 5.4663ms 200 application/json; charset=utf-8
+2017-09-16 10:02:37.191 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:02:37.193 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:02:37.200 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:02:37.200 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 8.016ms
+2017-09-16 10:02:37.201 [Information] Request finished in 9.651ms 200 application/json; charset=utf-8
+2017-09-16 10:02:43.332 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:02:43.333 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:02:43.336 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:02:43.336 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.6349ms
+2017-09-16 10:02:43.337 [Information] Request finished in 4.7911ms 200 application/json; charset=utf-8
+2017-09-16 10:02:48.057 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:02:48.058 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:02:48.062 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:02:48.062 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.8643ms
+2017-09-16 10:02:48.063 [Information] Request finished in 6.0075ms 200 application/json; charset=utf-8
+2017-09-16 10:02:54.250 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:02:54.250 [Information] Request finished in 0.5131ms 204 
+2017-09-16 10:02:54.254 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:02:54.255 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:02:54.258 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:02:54.258 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 3.4814ms
+2017-09-16 10:02:54.258 [Information] Request finished in 4.6702ms 200 application/json; charset=utf-8
+2017-09-16 10:02:59.400 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:02:59.400 [Information] Request finished in 0.4912ms 204 
+2017-09-16 10:02:59.403 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:02:59.404 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:02:59.406 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:02:59.406 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 1.6595ms
+2017-09-16 10:02:59.406 [Information] Request finished in 2.7652ms 200 application/json; charset=utf-8
+2017-09-16 10:03:01.217 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:03:01.218 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:03:01.219 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:03:01.220 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 1.5796ms
+2017-09-16 10:03:01.220 [Information] Request finished in 2.6671ms 200 application/json; charset=utf-8
+2017-09-16 10:03:05.685 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:03:05.686 [Information] Request finished in 0.5055ms 204 
+2017-09-16 10:03:05.689 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:03:05.690 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:03:05.691 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:03:05.691 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 1.56ms
+2017-09-16 10:03:05.692 [Information] Request finished in 2.6122ms 200 application/json; charset=utf-8
+2017-09-16 10:03:07.656 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:03:07.657 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:03:07.658 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:03:07.658 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 1.9004ms
+2017-09-16 10:03:07.658 [Information] Request finished in 3.0464ms 200 application/json; charset=utf-8
+2017-09-16 10:03:14.325 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:03:14.326 [Information] Request finished in 0.663ms 204 
+2017-09-16 10:03:14.329 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-09-16 10:03:14.331 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:03:14.333 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-16 10:03:14.333 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 2.9736ms
+2017-09-16 10:03:14.333 [Information] Request finished in 4.2489ms 200 application/json; charset=utf-8
+2017-09-16 10:03:14.343 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:03:14.344 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:03:14.347 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:03:14.348 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.8781ms
+2017-09-16 10:03:14.348 [Information] Request finished in 4.9803ms 200 application/json; charset=utf-8
+2017-09-16 10:03:14.350 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:03:14.351 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:03:14.354 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:03:14.354 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.0642ms
+2017-09-16 10:03:14.355 [Information] Request finished in 4.3404ms 200 application/json; charset=utf-8
+2017-09-16 10:06:38.900 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:06:38.901 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:06:38.905 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:06:38.905 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.0758ms
+2017-09-16 10:06:38.905 [Information] Request finished in 5.3047ms 200 application/json; charset=utf-8
+2017-09-16 10:06:38.908 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:06:38.909 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:06:38.911 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:06:38.912 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.0954ms
+2017-09-16 10:06:38.912 [Information] Request finished in 4.3306ms 200 application/json; charset=utf-8
+2017-09-16 10:06:49.898 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:06:49.899 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:06:49.901 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:06:49.902 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.6376ms
+2017-09-16 10:06:49.902 [Information] Request finished in 3.6822ms 200 application/json; charset=utf-8
+2017-09-16 10:06:49.912 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:06:49.913 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:06:49.915 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:06:49.916 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.8174ms
+2017-09-16 10:06:49.916 [Information] Request finished in 4.0972ms 200 application/json; charset=utf-8
+2017-09-16 10:07:35.734 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:07:35.735 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:07:35.738 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:07:35.739 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.9009ms
+2017-09-16 10:07:35.739 [Information] Request finished in 5.1726ms 200 application/json; charset=utf-8
+2017-09-16 10:07:35.750 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:07:35.751 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:07:35.753 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:07:35.753 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.5751ms
+2017-09-16 10:07:35.753 [Information] Request finished in 3.6559ms 200 application/json; charset=utf-8
+2017-09-16 10:21:05.149 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:05.151 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:05.161 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:05.161 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.2998ms
+2017-09-16 10:21:05.162 [Information] Request finished in 11.8201ms 200 application/json; charset=utf-8
+2017-09-16 10:21:05.163 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:05.164 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:05.168 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:05.169 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.655ms
+2017-09-16 10:21:05.169 [Information] Request finished in 5.7661ms 200 application/json; charset=utf-8
+2017-09-16 10:21:27.988 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:21:27.989 [Information] Request finished in 0.5015ms 204 
+2017-09-16 10:21:27.993 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-09-16 10:21:27.994 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:21:27.998 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-16 10:21:27.998 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 4.5809ms
+2017-09-16 10:21:27.998 [Information] Request finished in 5.8563ms 200 application/json; charset=utf-8
+2017-09-16 10:21:28.018 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:28.019 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:28.022 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:28.023 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.5667ms
+2017-09-16 10:21:28.023 [Information] Request finished in 4.7599ms 200 application/json; charset=utf-8
+2017-09-16 10:21:28.033 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:28.034 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:28.036 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:28.037 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.9138ms
+2017-09-16 10:21:28.037 [Information] Request finished in 4.1276ms 200 application/json; charset=utf-8
+2017-09-16 10:21:32.178 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-16 10:21:32.179 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-16 10:21:32.192 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-16 10:21:32.192 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 12.8714ms
+2017-09-16 10:21:32.192 [Information] Request finished in 13.9669ms 200 application/json; charset=utf-8
+2017-09-16 10:21:34.276 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:34.277 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:34.279 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:34.279 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.7228ms
+2017-09-16 10:21:34.279 [Information] Request finished in 3.8179ms 200 application/json; charset=utf-8
+2017-09-16 10:21:34.282 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:21:34.283 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:21:34.285 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:21:34.286 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.8821ms
+2017-09-16 10:21:34.286 [Information] Request finished in 4.3935ms 200 application/json; charset=utf-8
+2017-09-16 10:23:04.219 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:04.219 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:04.224 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:04.224 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.5631ms
+2017-09-16 10:23:04.224 [Information] Request finished in 5.7402ms 200 application/json; charset=utf-8
+2017-09-16 10:23:04.241 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:04.241 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:04.246 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:04.246 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.7559ms
+2017-09-16 10:23:04.246 [Information] Request finished in 5.999ms 200 application/json; charset=utf-8
+2017-09-16 10:23:26.640 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:23:26.641 [Information] Request finished in 0.6331ms 204 
+2017-09-16 10:23:26.645 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-09-16 10:23:26.646 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:23:26.650 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-16 10:23:26.650 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 4.4645ms
+2017-09-16 10:23:26.651 [Information] Request finished in 5.6349ms 200 application/json; charset=utf-8
+2017-09-16 10:23:26.663 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:26.664 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:26.666 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:26.667 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.9183ms
+2017-09-16 10:23:26.667 [Information] Request finished in 4.2873ms 200 application/json; charset=utf-8
+2017-09-16 10:23:26.675 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:26.676 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:26.678 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:26.678 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.8402ms
+2017-09-16 10:23:26.679 [Information] Request finished in 3.9875ms 200 application/json; charset=utf-8
+2017-09-16 10:23:40.853 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:40.854 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:40.858 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:40.858 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.7251ms
+2017-09-16 10:23:40.859 [Information] Request finished in 6.3047ms 200 application/json; charset=utf-8
+2017-09-16 10:23:40.860 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:23:40.860 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:23:40.863 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:23:40.863 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.4805ms
+2017-09-16 10:23:40.863 [Information] Request finished in 3.4752ms 200 application/json; charset=utf-8
+2017-09-16 10:25:04.156 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:25:04.156 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:25:04.173 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:25:04.174 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 17.5961ms
+2017-09-16 10:25:04.174 [Information] Request finished in 18.8433ms 200 application/json; charset=utf-8
+2017-09-16 10:25:04.187 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:25:04.188 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:25:04.191 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:25:04.192 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.5091ms
+2017-09-16 10:25:04.192 [Information] Request finished in 4.8683ms 200 application/json; charset=utf-8
+2017-09-16 10:25:09.920 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-16 10:25:09.921 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-16 10:25:09.935 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-16 10:25:09.936 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 14.8371ms
+2017-09-16 10:25:09.936 [Information] Request finished in 15.9897ms 200 application/json; charset=utf-8
+2017-09-16 10:25:12.120 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:25:12.121 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:25:12.126 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:25:12.127 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.8139ms
+2017-09-16 10:25:12.127 [Information] Request finished in 7.0682ms 200 application/json; charset=utf-8
+2017-09-16 10:25:12.130 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:25:12.134 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:25:12.137 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:25:12.137 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.1695ms
+2017-09-16 10:25:12.137 [Information] Request finished in 9.0977ms 200 application/json; charset=utf-8
+2017-09-16 10:26:33.765 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:26:33.765 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:26:33.770 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:26:33.770 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.016ms
+2017-09-16 10:26:33.771 [Information] Request finished in 6.1949ms 200 application/json; charset=utf-8
+2017-09-16 10:26:33.802 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:26:33.803 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:26:33.807 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:26:33.808 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.9741ms
+2017-09-16 10:26:33.808 [Information] Request finished in 6.1325ms 200 application/json; charset=utf-8
+2017-09-16 10:26:43.875 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-16 10:26:43.876 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-16 10:26:43.883 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-16 10:26:43.884 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 8.7219ms
+2017-09-16 10:26:43.884 [Information] Request finished in 9.9205ms 200 application/json; charset=utf-8
+2017-09-16 10:26:47.061 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-16 10:26:47.062 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-16 10:26:47.066 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-16 10:26:47.066 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 3.7978ms
+2017-09-16 10:26:47.066 [Information] Request finished in 5.1088ms 200 application/json; charset=utf-8
+2017-09-16 10:26:50.315 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:26:50.316 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:26:50.321 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:26:50.321 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.4805ms
+2017-09-16 10:26:50.322 [Information] Request finished in 6.7326ms 200 application/json; charset=utf-8
+2017-09-16 10:26:50.323 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:26:50.324 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:26:50.326 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:26:50.327 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.8621ms
+2017-09-16 10:26:50.327 [Information] Request finished in 4.5372ms 200 application/json; charset=utf-8
+2017-09-16 10:27:08.534 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-16 10:27:08.535 [Information] Request finished in 0.5899ms 204 
+2017-09-16 10:27:08.538 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-16 10:27:08.539 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:27:08.544 [Information] Executing JsonResult, writing value "".
+2017-09-16 10:27:08.544 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 5.3516ms
+2017-09-16 10:27:08.545 [Information] Request finished in 6.4823ms 200 application/json; charset=utf-8
+2017-09-16 10:27:12.827 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-09-16 10:27:12.828 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-16 10:27:12.830 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-16 10:27:12.831 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 2.9352ms
+2017-09-16 10:27:12.831 [Information] Request finished in 4.1048ms 200 application/json; charset=utf-8
+2017-09-16 10:27:12.841 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:27:12.842 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:27:12.846 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:27:12.846 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.647ms
+2017-09-16 10:27:12.846 [Information] Request finished in 5.0566ms 200 application/json; charset=utf-8
+2017-09-16 10:27:12.848 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:27:12.848 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:27:12.851 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:27:12.851 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.6501ms
+2017-09-16 10:27:12.851 [Information] Request finished in 3.7755ms 200 application/json; charset=utf-8
+2017-09-16 10:27:47.984 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:27:47.985 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:27:47.987 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:27:47.988 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.7492ms
+2017-09-16 10:27:47.988 [Information] Request finished in 3.8688ms 200 application/json; charset=utf-8
+2017-09-16 10:27:47.999 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-16 10:27:48.000 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-16 10:27:48.002 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-16 10:27:48.002 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.5841ms
+2017-09-16 10:27:48.003 [Information] Request finished in 3.6572ms 200 application/json; charset=utf-8

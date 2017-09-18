@@ -16,11 +16,13 @@
 
 --INSERT INTO Users
 --(
+--	user_name,
 --	user_login,
 --	user_password
 --)
 --VALUES
 --(
+--	'Admin',
 --	'admin',
 --	'admin'
 --)
@@ -34,5 +36,5 @@
 --@user_login='admin',
 --@user_password='admin'
 
-SELECT * FROM Orders
-SELECT * FROM OrderDetails
+--SELECT * FROM Orders
+--SELECT * FROM OrderDetails

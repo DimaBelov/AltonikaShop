@@ -1,12 +1,11 @@
 ﻿using CoreLib.Data.Mapping;
+using CoreLib.Entities;
 
 namespace AltonikaShop.Domain.Entities
 {
-    public class User
+    [NamedEntityDatabaseMap("user_id", "user_name")]
+    public class User : NamedEntity
     {
-        [DatabaseMap("user_id")]
-        public int? Id { get; set; }
-
         [DatabaseMap("user_login")]
         public string Login { get; set; }
 
