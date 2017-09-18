@@ -1,25 +1,18 @@
-﻿using System.Collections.Generic;
-using AltonikaShop.Application.Services.Interfaces;
-using AltonikaShop.Application.Specifications;
+﻿using AltonikaShop.Application.Services.Interfaces;
 using AltonikaShop.Domain.Entities;
-using CoreLib.Data;
+using CoreLib.Data.Entity;
 
 namespace AltonikaShop.Application.Services
 {
-    public class ProductService : GenericService, IProductService
+    public class ProductService : EntityService<Product>, IProductService
     {
-        public ProductService(IGenericRepository genericRepository) : base(genericRepository)
+        public ProductService(IEntityRepository<Product> repository) : base(repository)
         {
-        }
-
-        public IEnumerable<Product> GetAll()
-        {
-            return GetAll<Product>(new ProductGetAll());
         }
 
         public Product GetById(int id)
         {
-            return Get<Product>(new ProductGetById(id));
+            return Get(id);
         }
     }
 }

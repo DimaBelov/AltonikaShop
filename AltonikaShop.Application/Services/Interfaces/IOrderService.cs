@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
 using AltonikaShop.Domain.Entities;
+using CoreLib.Data.Entity;
 
 namespace AltonikaShop.Application.Services.Interfaces
 {
-    public interface IOrderService
+    public interface IOrderService : IEntityService<Order>
     {
-        int Update(IEnumerable<BasketItem> items, User user);
-
         IEnumerable<Order> GetByUser(int userId);
     }
 }

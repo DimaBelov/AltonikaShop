@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AltonikaShop.Application;
 using AltonikaShop.Application.Services;
 using AltonikaShop.Application.Services.Interfaces;
+using AltonikaShop.Domain.Entities;
 using CoreLib.Data;
+using CoreLib.Data.Entity;
 using CoreLib.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -40,11 +43,23 @@ namespace AltonikaShop.WebApi
 
             services.AddMvc(options => options.AddExceptionFilter());
 
+            //services
+            //    .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME))
+            //    .AddScoped<IUserService, UserService>()
+            //    .AddScoped<IProductService, ProductService>()
+            //    .AddScoped<IOrderService, OrderService>();
+
+            var defaultConnection = Configuration.GetSection("DataConnections").Get<List<DataConnection>>().First();
             services
-                .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME))
+
+                .AddSingleton<EfDbContext>(provider => new AppDbContext(defaultConnection))
+
+                .AddScoped<IEntityRepository<User>, EntityRepository<User>>()
                 .AddScoped<IUserService, UserService>()
+
+                .AddScoped<IEntityRepository<Product>, EntityRepository<Product>>()
                 .AddScoped<IProductService, ProductService>()
-                .AddScoped<IOrderService, OrderService>();
+                ;
 
             services.AddSwagger();
         }

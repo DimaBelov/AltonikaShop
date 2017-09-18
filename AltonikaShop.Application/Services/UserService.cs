@@ -1,19 +1,24 @@
-﻿using AltonikaShop.Application.Services.Interfaces;
-using AltonikaShop.Application.Specifications;
+﻿using System.Linq;
+using AltonikaShop.Application.Services.Interfaces;
 using AltonikaShop.Domain.Entities;
-using CoreLib.Data;
+using CoreLib.Data.Entity;
 
 namespace AltonikaShop.Application.Services
 {
-    public class UserService : GenericService, IUserService
+    public class UserService : EntityService<User>, IUserService
     {
-        public UserService(IGenericRepository genericRepository) : base(genericRepository)
+        public UserService(IEntityRepository<User> repository) : base(repository)
         {
         }
 
         public User Auth(User user)
         {
-            return Get<User>(new UserAuth(user));
+            return Repository.GetAll(
+                new Query<User>
+                {
+                    IsSatisfied = u => u.Login.Equals(user.Login) && u.Password.Equals(user.Password)
+                })
+                .FirstOrDefault();
         }
     }
 }

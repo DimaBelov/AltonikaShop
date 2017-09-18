@@ -1,12 +1,10 @@
-﻿using System.Collections.Generic;
-using AltonikaShop.Domain.Entities;
+﻿using AltonikaShop.Domain.Entities;
+using CoreLib.Data.Entity;
 
 namespace AltonikaShop.Application.Services.Interfaces
 {
-    public interface IProductService
+    public interface IProductService : IEntityService<Product>
     {
-        IEnumerable<Product> GetAll();
-
         Product GetById(int id);
     }
 }

@@ -189,3 +189,303 @@
 2017-09-18 11:38:25.889 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Order]".
 2017-09-18 11:38:25.907 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 84.8102ms
 2017-09-18 11:38:25.908 [Information] Request finished in 88.5219ms 200 application/json; charset=utf-8
+2017-09-18 13:01:42.227 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 13:01:42.232 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 13:01:42.250 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 13:01:42.251 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 20.2819ms
+2017-09-18 13:01:42.252 [Information] Request finished in 26.8094ms 200 application/json; charset=utf-8
+2017-09-18 13:01:42.258 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 13:01:42.265 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 13:01:42.269 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 13:01:42.269 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.8652ms
+2017-09-18 13:01:42.270 [Information] Request finished in 12.4854ms 200 application/json; charset=utf-8
+2017-09-18 16:35:37.351 [Fatal] Application startup exception
+System.Exception: _dbSet for type User not found
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(EfDbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at AltonikaShop.WebApi.Startup.ConfigureServices(IServiceCollection services) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Startup.cs:line 61
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-09-18 16:35:43.738 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-18 16:35:43.738 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:35:43.986 [Error] Connection id ""0HL7UJ8K2UFI3"": An unhandled exception was thrown by the application.
+System.ArgumentOutOfRangeException: Count cannot be less than zero.
+Parameter name: count
+   at System.String.CopyTo(Int32 sourceIndex, Char[] destination, Int32 destinationIndex, Int32 count)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.<ExecuteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Extensions.RazorViews.BaseView.<ExecuteAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-18 16:35:43.986 [Error] Connection id ""0HL7UJ8K2UFI4"": An unhandled exception was thrown by the application.
+System.ArgumentOutOfRangeException: Count cannot be less than zero.
+Parameter name: count
+   at System.String.CopyTo(Int32 sourceIndex, Char[] destination, Int32 destinationIndex, Int32 count)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.<ExecuteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Extensions.RazorViews.BaseView.<ExecuteAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-18 16:35:44.698 [Information] Request finished in 1611.2364ms 500 
+2017-09-18 16:35:44.702 [Information] Request finished in 1611.2212ms 500 
+2017-09-18 16:35:44.708 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:35:44.771 [Information] Request finished in 61.6166ms 500 text/html; charset=utf-8
+2017-09-18 16:35:56.778 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:35:56.805 [Information] Request finished in 25.9919ms 500 text/html; charset=utf-8
+2017-09-18 16:35:56.899 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:35:56.951 [Information] Request finished in 40.3257ms 500 text/html; charset=utf-8
+2017-09-18 16:38:22.168 [Fatal] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'CoreLib.Data.Entity.EfDbContext' while attempting to activate 'CoreLib.Data.Entity.EntityRepository`1[AltonikaShop.Domain.Entities.User]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.Service.PopulateCallSites(ServiceProvider provider, ISet`1 callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.Service.CreateCallSite(ServiceProvider provider, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetResolveCallSite(IService service, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetServiceCallSite(Type serviceType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.Service.PopulateCallSites(ServiceProvider provider, ISet`1 callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.Service.CreateCallSite(ServiceProvider provider, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetResolveCallSite(IService service, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetServiceCallSite(Type serviceType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType, ServiceProvider serviceProvider)
+   at System.Collections.Concurrent.ConcurrentDictionaryExtensions.GetOrAdd[TKey,TValue,TArg](ConcurrentDictionary`2 dictionary, TKey key, Func`3 valueFactory, TArg arg)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at AltonikaShop.WebApi.Startup.ConfigureServices(IServiceCollection services) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Startup.cs:line 62
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-09-18 16:38:22.838 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-18 16:38:22.839 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:38:23.079 [Information] Request finished in 271.3393ms 500 text/html; charset=utf-8
+2017-09-18 16:38:23.099 [Information] Request finished in 300.487ms 500 
+2017-09-18 16:38:23.200 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:38:23.239 [Information] Request finished in 40.5309ms 500 text/html; charset=utf-8
+2017-09-18 16:38:23.312 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:38:23.347 [Information] Request finished in 34.6679ms 500 text/html; charset=utf-8
+2017-09-18 16:39:25.629 [Fatal] Application startup exception
+System.ArgumentException: Keyword not supported: 'host'.
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at CoreLib.Data.Entity.EntityRepository`1.Get(Nullable`1 id, Query`1 query)
+   at CoreLib.Data.Entity.EntityRepository`1.ValidateOnAdd(T entity)
+   at CoreLib.Data.Entity.EntityRepository`1.Add(T entity)
+   at CoreLib.Data.Entity.EntityService`1.Add(T entity)
+   at AltonikaShop.Application.Services.UserService.Test() in C:\GitHub\AltonikaShop\AltonikaShop.Application\Services\UserService.cs:line 27
+   at AltonikaShop.WebApi.Startup.ConfigureServices(IServiceCollection services) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Startup.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2017-09-18 16:39:26.270 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-18 16:39:26.270 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:39:26.497 [Information] Request finished in 255.3157ms 500 
+2017-09-18 16:39:26.518 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:39:26.525 [Information] Request finished in 303.1514ms 500 text/html; charset=utf-8
+2017-09-18 16:39:26.572 [Information] Request finished in 53.0905ms 500 text/html; charset=utf-8
+2017-09-18 16:39:29.342 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:39:29.394 [Information] Request finished in 50.1637ms 500 text/html; charset=utf-8
+2017-09-18 16:39:29.462 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:39:29.524 [Information] Request finished in 59.4247ms 500 text/html; charset=utf-8
+2017-09-18 16:48:05.773 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:48:05.773 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-18 16:48:08.168 [Information] Request finished in 2445.4431ms 200 
+2017-09-18 16:48:12.375 [Information] Request finished in 6663.1181ms 404 
+2017-09-18 16:48:12.397 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:48:12.410 [Information] Request finished in 6.7188ms 404 
+2017-09-18 16:50:59.450 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-18 16:50:59.450 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:50:59.714 [Information] Request finished in 318.1509ms 200 
+2017-09-18 16:50:59.967 [Information] Request finished in 592.9945ms 404 
+2017-09-18 16:50:59.985 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-18 16:50:59.989 [Information] Request finished in 4.6082ms 404 
+2017-09-18 16:51:09.638 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-18 16:51:09.651 [Information] Request finished in 5.3426ms 404 
+2017-09-18 17:16:40.383 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-18 17:16:40.535 [Information] Request finished in 184.035ms 204 
+2017-09-18 17:16:40.587 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-18 17:16:41.203 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-18 17:16:42.598 [Information] Executing JsonResult, writing value "".
+2017-09-18 17:16:42.632 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 1743.6459ms
+2017-09-18 17:16:42.639 [Information] Request finished in 2051.6224ms 200 application/json; charset=utf-8
+2017-09-18 17:16:50.941 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-18 17:16:50.941 [Information] Request finished in 0.6318ms 204 
+2017-09-18 17:16:50.947 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-18 17:16:50.951 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-18 17:16:50.960 [Information] Executing JsonResult, writing value "".
+2017-09-18 17:16:50.961 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 11.5314ms
+2017-09-18 17:16:50.964 [Information] Request finished in 16.8429ms 200 application/json; charset=utf-8
+2017-09-18 17:16:55.958 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-18 17:16:55.959 [Information] Request finished in 0.925ms 204 
+2017-09-18 17:16:55.965 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 37
+2017-09-18 17:16:55.966 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-18 17:16:55.967 [Information] Executing JsonResult, writing value "".
+2017-09-18 17:16:55.967 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 2.1847ms
+2017-09-18 17:16:55.968 [Information] Request finished in 3.4908ms 200 application/json; charset=utf-8
+2017-09-18 17:17:00.266 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-09-18 17:17:00.266 [Information] Request finished in 0.5216ms 204 
+2017-09-18 17:17:00.270 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-09-18 17:17:00.271 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-09-18 17:17:00.272 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-09-18 17:17:00.276 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 5.3012ms
+2017-09-18 17:17:00.277 [Information] Request finished in 6.7193ms 200 application/json; charset=utf-8
+2017-09-18 17:17:00.293 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:17:00.391 [Error] Exception handeled by ExceptionFilter
+System.Exception: _dbSet for type Product not found
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(EfDbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-18 17:17:00.429 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-18 17:17:00.485 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 185.3273ms
+2017-09-18 17:17:00.491 [Information] Request finished in 195.3095ms 400 application/json; charset=utf-8
+2017-09-18 17:17:00.494 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:17:00.505 [Error] Exception handeled by ExceptionFilter
+System.Exception: _dbSet for type Product not found
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(EfDbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-18 17:17:00.525 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-18 17:17:00.527 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 30.2735ms
+2017-09-18 17:17:00.528 [Information] Request finished in 35.4979ms 400 application/json; charset=utf-8
+2017-09-18 17:18:03.411 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:03.411 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:03.956 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:03.956 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:03.996 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:03.996 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:04.100 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 259.0194ms
+2017-09-18 17:18:04.177 [Error] Connection id ""0HL7UK09FNRC3"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point.
+   at Microsoft.EntityFrameworkCore.DbContext.InitializeServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.DbContext.get_QueryProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.<.ctor>b__3_0()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-18 17:18:04.210 [Information] Request finished in 838.6418ms 200 application/json; charset=utf-8
+2017-09-18 17:18:05.227 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1389.4365ms
+2017-09-18 17:18:05.233 [Information] Request finished in 1865.5721ms 200 application/json; charset=utf-8
+2017-09-18 17:18:13.063 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:13.065 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:13.065 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:13.070 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.3833ms
+2017-09-18 17:18:13.070 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:13.072 [Information] Request finished in 9.5845ms 200 application/json; charset=utf-8
+2017-09-18 17:18:13.072 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:13.073 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:13.074 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.6091ms
+2017-09-18 17:18:13.074 [Information] Request finished in 3.8232ms 200 application/json; charset=utf-8
+2017-09-18 17:18:22.381 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:22.382 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:22.382 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:22.383 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.5095ms
+2017-09-18 17:18:22.383 [Information] Request finished in 2.7568ms 200 application/json; charset=utf-8
+2017-09-18 17:18:22.415 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-18 17:18:22.416 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-18 17:18:22.417 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-18 17:18:22.418 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.0142ms
+2017-09-18 17:18:22.418 [Information] Request finished in 3.522ms 200 application/json; charset=utf-8

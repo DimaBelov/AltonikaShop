@@ -1,15 +1,13 @@
-﻿using CoreLib.Data.Mapping;
-using CoreLib.Entities;
+﻿using CoreLib.Entities;
 
 namespace AltonikaShop.Domain.Entities
 {
-    [NamedEntityDatabaseMap("product_id", "product_name")]
     public class Product : NamedEntity
     {
-        [DatabaseMap("product_description")]
+        public string Code { get; set; }
+
         public string Description { get; set; }
         
-        [DatabaseMap("img_src")]
         public string ImageSource { get; set; }
     }
 }

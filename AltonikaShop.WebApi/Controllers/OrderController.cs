@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Linq;
 using AltonikaShop.Application.Services.Interfaces;
+using AltonikaShop.Domain.Entities;
 using AltonikaShop.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +23,16 @@ namespace AltonikaShop.WebApi.Controllers
             if (model == null)
                 throw new ArgumentNullException(nameof(model));
 
-            return Json(_orderService.Update(model.BasketItems, model.User));
+            return Json(_orderService.Add(new Order
+            {
+                UserId = model.User.Id,
+                CreateDate = DateTime.Now,
+                Details = model.BasketItems.Select(i => new OrderDetail
+                {
+                    ProductId = i.Product.Id,
+                    Quantity = i.Quantity
+                }).ToList()
+            }));
         }
 
         [HttpGet("user/{userId}")]
