@@ -2,6 +2,7 @@
 using AltonikaShop.Application.Services.Interfaces;
 using AltonikaShop.Domain.Entities;
 using CoreLib.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace AltonikaShop.Application.Services
 {
@@ -13,7 +14,12 @@ namespace AltonikaShop.Application.Services
 
         public IEnumerable<Order> GetByUser(int userId)
         {
-            return GetAll();
+            return Repository.GetAll(
+                new Query<Order>
+                {
+                    IsSatisfied = order => order.UserId == userId,
+                    Include = orders => orders.Include(order => order.Details)
+                });
         }
     }
 }

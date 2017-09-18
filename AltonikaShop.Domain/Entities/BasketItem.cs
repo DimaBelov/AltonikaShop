@@ -1,6 +1,8 @@
-﻿namespace AltonikaShop.Domain.Entities
+﻿using CoreLib.Entities;
+
+namespace AltonikaShop.Domain.Entities
 {
-    public class BasketItem
+    public class BasketItem : IdentifiedEntity
     {
         public Product Product { get; set; }
         

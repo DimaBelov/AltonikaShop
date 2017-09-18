@@ -59,6 +59,9 @@ namespace AltonikaShop.WebApi
 
                 .AddScoped<IEntityRepository<Product>, EntityRepository<Product>>()
                 .AddScoped<IProductService, ProductService>()
+
+                .AddScoped<IEntityRepository<Order>, EntityRepository<Order>>()
+                .AddScoped<IOrderService, OrderService>()
                 ;
 
             services.AddSwagger();
