@@ -9,7 +9,7 @@ namespace AltonikaShop.Domain.Entities
 
         public int? ProductId { get; set; }
 
-        [NotMapped]
+        //[NotMapped]
         public Product Product { get; set; }
 
         public int Quantity { get; set; }

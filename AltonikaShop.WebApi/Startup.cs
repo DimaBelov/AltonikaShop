@@ -19,7 +19,6 @@ namespace AltonikaShop.WebApi
 {
     public class Startup
     {
-        const string DB_CONNECTION_NAME = "Default";
         const string ALLOWED_ORIGINS_CONFIG_NAME = "AllowedOrigins";
         
         public Startup(IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -43,23 +42,13 @@ namespace AltonikaShop.WebApi
 
             services.AddMvc(options => options.AddExceptionFilter());
 
-            //services
-            //    .AddScoped<IGenericRepository>(provider => new GenericRepository(DB_CONNECTION_NAME))
-            //    .AddScoped<IUserService, UserService>()
-            //    .AddScoped<IProductService, ProductService>()
-            //    .AddScoped<IOrderService, OrderService>();
-
             var defaultConnection = Configuration.GetSection("DataConnections").Get<List<DataConnection>>().First();
             services
-
                 .AddSingleton<EfDbContext>(provider => new AppDbContext(defaultConnection))
-
                 .AddScoped<IEntityRepository<User>, EntityRepository<User>>()
                 .AddScoped<IUserService, UserService>()
-
                 .AddScoped<IEntityRepository<Product>, EntityRepository<Product>>()
                 .AddScoped<IProductService, ProductService>()
-
                 .AddScoped<IEntityRepository<Order>, EntityRepository<Order>>()
                 .AddScoped<IOrderService, OrderService>()
                 ;
