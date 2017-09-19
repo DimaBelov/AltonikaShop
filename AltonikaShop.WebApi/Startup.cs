@@ -19,6 +19,7 @@ namespace AltonikaShop.WebApi
 {
     public class Startup
     {
+        const string DATA_CONNECTIONS_SECTION_MAME = "DataConnections";
         const string ALLOWED_ORIGINS_CONFIG_NAME = "AllowedOrigins";
         
         public Startup(IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -42,7 +43,7 @@ namespace AltonikaShop.WebApi
 
             services.AddMvc(options => options.AddExceptionFilter());
 
-            var defaultConnection = Configuration.GetSection("DataConnections").Get<List<DataConnection>>().First();
+            var defaultConnection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME).Get<List<DataConnection>>().First();
             services
                 .AddSingleton<EfDbContext>(provider => new AppDbContext(defaultConnection))
                 .AddScoped<IEntityRepository<User>, EntityRepository<User>>()
