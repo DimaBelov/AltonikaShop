@@ -19,6 +19,7 @@ namespace AltonikaShop.Application.Services
                 {
                     IsSatisfied = order => order.UserId == userId,
                     Include = orders => orders.Include(order => order.Details)
+                        .ThenInclude(d => d.Product)
                 });
         }
     }

@@ -1637,3 +1637,115 @@ System.InvalidOperationException: An attempt was made to use the context while i
 2017-09-19 17:26:05.446 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
 2017-09-19 17:26:06.684 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1472.2467ms
 2017-09-19 17:26:06.702 [Information] Request finished in 1884.7876ms 200 application/json; charset=utf-8
+2017-09-19 17:28:07.079 [Information] Request starting HTTP/1.1 GET http://localhost:9092/  
+2017-09-19 17:28:07.390 [Information] Request finished in 338.1112ms 404 
+2017-09-19 17:28:07.511 [Information] Request starting HTTP/1.1 GET http://localhost:9092/  
+2017-09-19 17:28:07.512 [Information] Request finished in 1.0972ms 404 
+2017-09-19 17:28:27.057 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger  
+2017-09-19 17:28:27.068 [Information] Request finished in 11.7237ms 301 
+2017-09-19 17:28:27.072 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/  
+2017-09-19 17:28:27.090 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.122 [Information] Request finished in 49.0115ms 200 text/html
+2017-09-19 17:28:27.150 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/css/typography.css  
+2017-09-19 17:28:27.152 [Information] Sending file. Request path: '"/css/typography.css"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.153 [Information] Request finished in 3.3824ms 200 text/css
+2017-09-19 17:28:27.156 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/css/reset.css  
+2017-09-19 17:28:27.156 [Information] Sending file. Request path: '"/css/reset.css"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.158 [Information] Request finished in 2.6622ms 200 text/css
+2017-09-19 17:28:27.158 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/css/screen.css  
+2017-09-19 17:28:27.159 [Information] Sending file. Request path: '"/css/screen.css"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.159 [Information] Request finished in 1.1347ms 200 text/css
+2017-09-19 17:28:27.164 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/object-assign-pollyfill.js  
+2017-09-19 17:28:27.164 [Information] Sending file. Request path: '"/lib/object-assign-pollyfill.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.164 [Information] Request finished in 1.186ms 200 application/javascript
+2017-09-19 17:28:27.166 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/jquery-1.8.0.min.js  
+2017-09-19 17:28:27.166 [Information] Sending file. Request path: '"/lib/jquery-1.8.0.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.176 [Information] Request finished in 10.4002ms 200 application/javascript
+2017-09-19 17:28:27.176 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/jquery.slideto.min.js  
+2017-09-19 17:28:27.177 [Information] Sending file. Request path: '"/lib/jquery.slideto.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.177 [Information] Request finished in 0.7871ms 200 application/javascript
+2017-09-19 17:28:27.179 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/jquery.wiggle.min.js  
+2017-09-19 17:28:27.179 [Information] Sending file. Request path: '"/lib/jquery.wiggle.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.180 [Information] Request finished in 0.7697ms 200 application/javascript
+2017-09-19 17:28:27.181 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/jquery.ba-bbq.min.js  
+2017-09-19 17:28:27.182 [Information] Sending file. Request path: '"/lib/jquery.ba-bbq.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.184 [Information] Request finished in 1.7786ms 200 application/javascript
+2017-09-19 17:28:27.184 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/handlebars-4.0.5.js  
+2017-09-19 17:28:27.185 [Information] Sending file. Request path: '"/lib/handlebars-4.0.5.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.188 [Information] Request finished in 3.3779ms 200 application/javascript
+2017-09-19 17:28:27.189 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/lodash.min.js  
+2017-09-19 17:28:27.190 [Information] Sending file. Request path: '"/lib/lodash.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.191 [Information] Request finished in 1.7791ms 200 application/javascript
+2017-09-19 17:28:27.192 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/backbone-min.js  
+2017-09-19 17:28:27.193 [Information] Sending file. Request path: '"/lib/backbone-min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.196 [Information] Request finished in 2.5832ms 200 application/javascript
+2017-09-19 17:28:27.197 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/swagger-ui.min.js  
+2017-09-19 17:28:27.198 [Information] Sending file. Request path: '"/swagger-ui.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.206 [Information] Request finished in 8.5577ms 200 application/javascript
+2017-09-19 17:28:27.206 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/highlight.9.1.0.pack.js  
+2017-09-19 17:28:27.207 [Information] Sending file. Request path: '"/lib/highlight.9.1.0.pack.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.207 [Information] Request finished in 0.7929ms 200 application/javascript
+2017-09-19 17:28:27.209 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/highlight.9.1.0.pack_extended.js  
+2017-09-19 17:28:27.209 [Information] Sending file. Request path: '"/lib/highlight.9.1.0.pack_extended.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.209 [Information] Request finished in 0.6921ms 200 application/javascript
+2017-09-19 17:28:27.211 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/jsoneditor.min.js  
+2017-09-19 17:28:27.211 [Information] Sending file. Request path: '"/lib/jsoneditor.min.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.212 [Information] Request finished in 1.5238ms 200 application/javascript
+2017-09-19 17:28:27.213 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/marked.js  
+2017-09-19 17:28:27.213 [Information] Sending file. Request path: '"/lib/marked.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.216 [Information] Request finished in 2.7505ms 200 application/javascript
+2017-09-19 17:28:27.218 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/lib/swagger-oauth.js  
+2017-09-19 17:28:27.219 [Information] Sending file. Request path: '"/lib/swagger-oauth.js"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.220 [Information] Request finished in 1.3248ms 200 application/javascript
+2017-09-19 17:28:27.221 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/logo_small.png  
+2017-09-19 17:28:27.222 [Information] Sending file. Request path: '"/images/logo_small.png"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.222 [Information] Request finished in 0.8054ms 200 image/png
+2017-09-19 17:28:27.280 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/css/print.css  
+2017-09-19 17:28:27.281 [Information] Sending file. Request path: '"/css/print.css"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.281 [Information] Request finished in 0.8643ms 200 text/css
+2017-09-19 17:28:27.540 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/?private_token=false  
+2017-09-19 17:28:27.541 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.541 [Information] Request finished in 1.174ms 200 text/html
+2017-09-19 17:28:27.553 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/v1/swagger.json  
+2017-09-19 17:28:27.646 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-32x32.png  
+2017-09-19 17:28:27.646 [Information] Sending file. Request path: '"/images/favicon-32x32.png"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.647 [Information] Request finished in 0.7389ms 200 image/png
+2017-09-19 17:28:27.653 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-16x16.png  
+2017-09-19 17:28:27.653 [Information] Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-09-19 17:28:27.653 [Information] Request finished in 0.7643ms 200 image/png
+2017-09-19 17:28:27.787 [Information] Request finished in 234.0069ms 200 application/json
+2017-09-19 17:28:34.245 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/throbber.gif  
+2017-09-19 17:28:34.245 [Information] Sending file. Request path: '"/images/throbber.gif"'. Physical path: '"N/A"'
+2017-09-19 17:28:34.246 [Information] Request finished in 0.8094ms 200 image/gif
+2017-09-19 17:28:34.285 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-32x32.png  
+2017-09-19 17:28:34.293 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-09-19 17:28:34.294 [Information] Request finished in 9.3025ms 304 image/png
+2017-09-19 17:28:34.304 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-16x16.png  
+2017-09-19 17:28:34.305 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-09-19 17:28:34.308 [Information] Request finished in 2.4511ms 304 image/png
+2017-09-19 17:28:36.309 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-32x32.png  
+2017-09-19 17:28:36.309 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-09-19 17:28:36.310 [Information] Request finished in 0.9116ms 304 image/png
+2017-09-19 17:28:36.315 [Information] Request starting HTTP/1.1 GET http://localhost:9092/swagger/images/favicon-16x16.png  
+2017-09-19 17:28:36.315 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-09-19 17:28:36.316 [Information] Request finished in 0.8424ms 304 image/png
+2017-09-19 17:28:53.290 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-19 17:28:53.576 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-19 17:28:54.219 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions+IncludableQueryable`2[AltonikaShop.Domain.Entities.Order,System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.OrderDetail]]".
+2017-09-19 17:28:54.983 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1605.3912ms
+2017-09-19 17:28:54.985 [Information] Request finished in 1694.8838ms 200 application/json; charset=utf-8
+2017-09-19 17:29:02.033 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-19 17:29:02.036 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-19 17:29:02.036 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions+IncludableQueryable`2[AltonikaShop.Domain.Entities.Order,System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.OrderDetail]]".
+2017-09-19 17:29:02.046 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 11.7634ms
+2017-09-19 17:29:02.048 [Information] Request finished in 15.7527ms 200 application/json; charset=utf-8
+2017-09-19 17:29:12.211 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-19 17:29:12.212 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-19 17:29:12.212 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions+IncludableQueryable`2[AltonikaShop.Domain.Entities.Order,System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.OrderDetail]]".
+2017-09-19 17:29:12.214 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 2.8835ms
+2017-09-19 17:29:12.215 [Information] Request finished in 4.178ms 200 application/json; charset=utf-8
+2017-09-19 17:30:11.071 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-19 17:30:11.626 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-19 17:30:12.229 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions+IncludableQueryable`2[AltonikaShop.Domain.Entities.Order,AltonikaShop.Domain.Entities.Product]".
+2017-09-19 17:30:13.070 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1640.9664ms
+2017-09-19 17:30:13.090 [Information] Request finished in 2047.8156ms 200 application/json; charset=utf-8
