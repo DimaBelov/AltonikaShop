@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Linq;
 using AltonikaShop.Application.Services.Interfaces;
 using AltonikaShop.Domain.Entities;
-using AltonikaShop.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AltonikaShop.WebApi.Controllers
@@ -18,21 +16,14 @@ namespace AltonikaShop.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update([FromBody] OrderModel model)
+        public IActionResult Update([FromBody] Order order)
         {
-            if (model == null)
-                throw new ArgumentNullException(nameof(model));
-
-            return Json(_orderService.Add(new Order
-            {
-                UserId = model.User.Id,
-                CreateDate = DateTime.Now,
-                Details = model.BasketItems.Select(i => new OrderDetail
-                {
-                    ProductId = i.Product.Id,
-                    Quantity = i.Quantity
-                }).ToList()
-            }));
+            if (order == null)
+                throw new ArgumentNullException(nameof(order));
+            
+            order.CreateDate = DateTime.Now;
+            order.Details.ForEach(d => d.ProductId = d.Product.Id);
+            return Json(_orderService.Add(order));
         }
 
         [HttpGet("user/{userId}")]
