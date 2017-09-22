@@ -25,7 +25,7 @@ CREATE TABLE public."Products"
     "Id" serial NOT NULL,
 	"Code" text NOT NULL,
     "Name" text NOT NULL,
-	"Price" decimal NOT NULL,
+	"Price" decimal,
     "Description" text,
     "ImageSource" text,
     CONSTRAINT "Products_pkey" PRIMARY KEY ("Id")
@@ -81,5 +81,5 @@ ALTER TABLE public."OrderDetails"
 
 CREATE INDEX "fki_FK_OrderDetailProduct_Product"
     ON public."OrderDetails" USING btree
-    (ProductId)
+    ("ProductId")
     TABLESPACE pg_default;
