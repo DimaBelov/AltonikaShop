@@ -1,13 +1,10 @@
--- Table: public."Users"
-
--- DROP TABLE public."Users";
-
 CREATE TABLE public."Users"
 (
-    "Id" integer NOT NULL DEFAULT nextval('"Users_Id_seq"'::regclass),
-    "Name" text COLLATE pg_catalog."default" NOT NULL,
-    "Login" text COLLATE pg_catalog."default" NOT NULL,
-    "Password" text COLLATE pg_catalog."default" NOT NULL,
+    "Id" serial NOT NULL,
+	"Code" text NOT NULL,
+    "Name" text NOT NULL,
+    "Login" text NOT NULL,
+    "Password" text NOT NULL,
     CONSTRAINT "Users_pkey" PRIMARY KEY ("Id")
 )
 WITH (
@@ -18,19 +15,19 @@ TABLESPACE pg_default;
 ALTER TABLE public."Users"
     OWNER to altonika;
 	
+INSERT INTO public."Users" ("Code", "Name", "Login", "Password")
+    VALUES ('admin', 'Admin', 'admin', 'admin');
+	
+SELECT "Id", "Code", "Name", "Login", "Password" FROM public."Users";
 ------------------------------------------------------------------------------------------
-
--- Table: public."Products"
-
--- DROP TABLE public."Products";
-
 CREATE TABLE public."Products"
 (
-    "Id" integer NOT NULL DEFAULT nextval('"Products_Id_seq"'::regclass),
-    "Name" text COLLATE pg_catalog."default" NOT NULL,
-    "Code" text COLLATE pg_catalog."default" NOT NULL,
-    "Description" text COLLATE pg_catalog."default",
-    "ImageSource" text COLLATE pg_catalog."default",
+    "Id" serial NOT NULL,
+	"Code" text NOT NULL,
+    "Name" text NOT NULL,
+    "Code" text NOT NULL,
+    "Description" text,
+    "ImageSource" text,
     CONSTRAINT "Products_pkey" PRIMARY KEY ("Id")
 )
 WITH (
@@ -42,14 +39,9 @@ ALTER TABLE public."Products"
     OWNER to altonika;
 	
 ------------------------------------------------------------------------------------------
-
--- Table: public."Orders"
-
--- DROP TABLE public."Orders";
-
 CREATE TABLE public."Orders"
 (
-    "Id" integer NOT NULL DEFAULT nextval('"Orders_Id_seq"'::regclass),
+    "Id" serial NOT NULL,
     "UserId" integer NOT NULL,
     "CreateDate" date NOT NULL,
     CONSTRAINT "Orders_pkey" PRIMARY KEY ("Id")
@@ -63,14 +55,9 @@ ALTER TABLE public."Orders"
     OWNER to altonika;
 	
 -------------------------------------------------------------------------------------------
-
--- Table: public."OrderDetails"
-
--- DROP TABLE public."OrderDetails";
-
 CREATE TABLE public."OrderDetails"
 (
-    "Id" integer NOT NULL DEFAULT nextval('"OrderDetails_Id_seq"'::regclass),
+    "Id" serial NOT NULL,
     "ProductId" integer NOT NULL,
     "Quantity" integer NOT NULL,
     "OrderId" integer NOT NULL,
@@ -91,10 +78,6 @@ TABLESPACE pg_default;
 
 ALTER TABLE public."OrderDetails"
     OWNER to altonika;
-
--- Index: fki_FK_OrderDetailProduct_Product
-
--- DROP INDEX public."fki_FK_OrderDetailProduct_Product";
 
 CREATE INDEX "fki_FK_OrderDetailProduct_Product"
     ON public."OrderDetails" USING btree
