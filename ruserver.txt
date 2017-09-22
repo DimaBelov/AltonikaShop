@@ -55,11 +55,16 @@ sudo -i -u altonika psql
 
 cd /etc/postgresql/9.5/main
 
-sudo nano postgresql.conf
-sudo nano pg_hba.conf
+sudo nano /etc/postgresql/9.5/main/postgresql.conf
+sudo nano /etc/postgresql/9.5/main/pg_hba.conf
 
-iptables -A INPUT -p tcp -s 0/0 --sport 1024:65535 -d 91.230.107.61  --dport 5432 -m state --state NEW,ESTABLISHED -j ACCEPT
-iptables -A OUTPUT -p tcp -s 91.230.107.61 --sport 5432 -d 0/0 --dport 1024:65535 -m state --state ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -p tcp -s 0/0 --sport 1024:65535 -d 91.230.107.61  --dport 5432 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -s 91.230.107.61 --sport 5432 -d 0/0 --dport 1024:65535 -m state --state ESTABLISHED -j ACCEPT
 
+sudo /etc/init.d/postgresql restart   sudo service postgresql restart
+# sudo /etc/init.d/iptables restart
 
+sudo apt-get install iptables-persistent
+sudo invoke-rc.d iptables-persistent save
 
+psql 185.26.114.186 -U altonika
