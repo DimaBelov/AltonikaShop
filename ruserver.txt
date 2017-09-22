@@ -68,3 +68,5 @@ sudo apt-get install iptables-persistent
 sudo invoke-rc.d iptables-persistent save
 
 psql 185.26.114.186 -U altonika
+
+lsof -i :9092
