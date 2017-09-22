@@ -1,0 +1,54 @@
+ssh 185.26.114.186 -l u2944939
+
+
+rm -rf webapi
+
+scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi
+
+rm -rf frontend
+
+scp -r /mnt/c/GitHub/altonika-shop/dist u2944939@185.26.114.186:/home/u2944939/altonika-shop/frontend
+
+cd /etc/nginx/sites-available
+sudo nano default
+ sudo nano altonika-api
+
+cd /home/u2944939/altonika-shop/frontend
+
+sudo service nginx restart
+
+server {                                                    
+        listen 80 default_server;                           
+        listen [::]:80 default_server;                      
+                                                            
+        root /home/u2944939/altonika-shop/frontend;         
+                                                            
+        index index.html index.htm index.nginx-debian.html; 
+                                                            
+        server_name _;                                      
+                                                            
+        location / {                                        
+                try_files $uri $uri/ =404;                  
+        }                                                   
+}                                                           
+
+server {                                                    
+        listen 81 api_server;                           
+        listen [::]:81 api_server;                      
+                    
+        location / {                                        
+			proxy_pass http://localhost:9092;
+			proxy_http_version 1.1;
+			proxy_set_header Upgrade $http_upgrade;
+			proxy_set_header Connection keep-alive;
+			proxy_set_header Host $host;
+			proxy_cache_bypass $http_upgrade;           
+        }                                                   
+}   
+
+netstat -ntlp | grep LISTEN
+
+
+dotnet  AltonikaShop.WebApi.dll
+
+sudo -i -u altonika psql

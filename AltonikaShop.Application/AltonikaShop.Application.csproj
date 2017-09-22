@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="CoreLib.Data.Entity" Version="1.0.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="1.1.1" />
   </ItemGroup>
 
@@ -13,4 +14,8 @@
     <ProjectReference Include="..\AltonikaShop.Domain\AltonikaShop.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+  </ItemGroup>
+  
 </Project>

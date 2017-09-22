@@ -1,0 +1,102 @@
+-- Table: public."Users"
+
+-- DROP TABLE public."Users";
+
+CREATE TABLE public."Users"
+(
+    "Id" integer NOT NULL DEFAULT nextval('"Users_Id_seq"'::regclass),
+    "Name" text COLLATE pg_catalog."default" NOT NULL,
+    "Login" text COLLATE pg_catalog."default" NOT NULL,
+    "Password" text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Users_pkey" PRIMARY KEY ("Id")
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Users"
+    OWNER to altonika;
+	
+------------------------------------------------------------------------------------------
+
+-- Table: public."Products"
+
+-- DROP TABLE public."Products";
+
+CREATE TABLE public."Products"
+(
+    "Id" integer NOT NULL DEFAULT nextval('"Products_Id_seq"'::regclass),
+    "Name" text COLLATE pg_catalog."default" NOT NULL,
+    "Code" text COLLATE pg_catalog."default" NOT NULL,
+    "Description" text COLLATE pg_catalog."default",
+    "ImageSource" text COLLATE pg_catalog."default",
+    CONSTRAINT "Products_pkey" PRIMARY KEY ("Id")
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Products"
+    OWNER to altonika;
+	
+------------------------------------------------------------------------------------------
+
+-- Table: public."Orders"
+
+-- DROP TABLE public."Orders";
+
+CREATE TABLE public."Orders"
+(
+    "Id" integer NOT NULL DEFAULT nextval('"Orders_Id_seq"'::regclass),
+    "UserId" integer NOT NULL,
+    "CreateDate" date NOT NULL,
+    CONSTRAINT "Orders_pkey" PRIMARY KEY ("Id")
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Orders"
+    OWNER to altonika;
+	
+-------------------------------------------------------------------------------------------
+
+-- Table: public."OrderDetails"
+
+-- DROP TABLE public."OrderDetails";
+
+CREATE TABLE public."OrderDetails"
+(
+    "Id" integer NOT NULL DEFAULT nextval('"OrderDetails_Id_seq"'::regclass),
+    "ProductId" integer NOT NULL,
+    "Quantity" integer NOT NULL,
+    "OrderId" integer NOT NULL,
+    CONSTRAINT "OrderDetails_pkey" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_OrderDetailProduct_Product" FOREIGN KEY ("ProductId")
+        REFERENCES public."Products" ("Id") MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT "FK_OrderDetails_Order" FOREIGN KEY ("OrderId")
+        REFERENCES public."Orders" ("Id") MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."OrderDetails"
+    OWNER to altonika;
+
+-- Index: fki_FK_OrderDetailProduct_Product
+
+-- DROP INDEX public."fki_FK_OrderDetailProduct_Product";
+
+CREATE INDEX "fki_FK_OrderDetailProduct_Product"
+    ON public."OrderDetails" USING btree
+    (ProductId)
+    TABLESPACE pg_default;
