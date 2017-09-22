@@ -25,7 +25,7 @@ CREATE TABLE public."Products"
     "Id" serial NOT NULL,
 	"Code" text NOT NULL,
     "Name" text NOT NULL,
-    "Code" text NOT NULL,
+	"Price" decimal NOT NULL,
     "Description" text,
     "ImageSource" text,
     CONSTRAINT "Products_pkey" PRIMARY KEY ("Id")
