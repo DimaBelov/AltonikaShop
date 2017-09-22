@@ -7,6 +7,8 @@ namespace AltonikaShop.Application
 {
     public class AppDbContext : EfDbContext
     {
+        const string WEBAPI_ASSEMBLY_NAME = "AltonikaShop.WebApi";
+
         readonly DataConnection _connection;
 
         public AppDbContext(DataConnection connection) : base(connection)
@@ -16,7 +18,7 @@ namespace AltonikaShop.Application
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(_connection.ConnectionString);
+            optionsBuilder.UseNpgsql(_connection.ConnectionString, b => b.MigrationsAssembly(WEBAPI_ASSEMBLY_NAME));
         }
 
         public DbSet<User> Users { get; set; }

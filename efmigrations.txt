@@ -1,0 +1,5 @@
+dotnet ef migrations add InitialCreate
+
+ef migrations remove
+
+dotnet ef database update
