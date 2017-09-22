@@ -41,7 +41,8 @@ namespace AltonikaShop.WebApi
         {
             ConnectionManager.Register(Configuration);
 
-            services.AddMvc(options => options.AddExceptionFilter());
+            services.AddMvc()
+                .AddExceptionFilter();
 
             var defaultConnection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME).Get<List<DataConnection>>().First();
             ForMigrations(services, defaultConnection);
