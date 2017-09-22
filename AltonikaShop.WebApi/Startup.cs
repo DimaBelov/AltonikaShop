@@ -44,6 +44,8 @@ namespace AltonikaShop.WebApi
             services.AddMvc(options => options.AddExceptionFilter());
 
             var defaultConnection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME).Get<List<DataConnection>>().First();
+            ForMigrations(services, defaultConnection);
+
             services
                 .AddSingleton<EfDbContext>(provider => new AppDbContext(defaultConnection))
                 .AddScoped<IEntityRepository<User>, EntityRepository<User>>()
@@ -67,6 +69,13 @@ namespace AltonikaShop.WebApi
             app.UseSwaggerWithUi(serviceProvider.GetService<Info>())
                 .UseMetrics(configuration => configuration.MemStatInterval = TimeSpan.FromSeconds(5))
                 .UseMvc();
+        }
+
+        void ForMigrations(IServiceCollection services, DataConnection connection)
+        {
+            services
+                .AddScoped(provider => connection)
+                .AddDbContext<AppDbContext>();
         }
     }
 }
