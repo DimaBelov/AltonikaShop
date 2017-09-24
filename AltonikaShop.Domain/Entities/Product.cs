@@ -9,5 +9,7 @@ namespace AltonikaShop.Domain.Entities
         public string Description { get; set; }
         
         public string ImageSource { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }
