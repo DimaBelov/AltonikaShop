@@ -26,8 +26,7 @@ cd /etc/postgresql/9.5/main
 sudo nano /etc/postgresql/9.5/main/postgresql.conf
 sudo nano /etc/postgresql/9.5/main/pg_hba.conf
 
-sudo /etc/init.d/postgresql restart   sudo service postgresql restart
-# sudo /etc/init.d/iptables restart
+sudo service postgresql restart
 
 sudo apt-get install iptables-persistent
 sudo invoke-rc.d iptables-persistent save

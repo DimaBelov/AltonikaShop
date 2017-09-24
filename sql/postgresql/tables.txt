@@ -43,7 +43,8 @@ CREATE TABLE public."Orders"
 (
     "Id" serial NOT NULL,
     "UserId" integer NOT NULL,
-    "CreateDate" date NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+	"IsPickedUp" boolean DEFAULT false,
     CONSTRAINT "Orders_pkey" PRIMARY KEY ("Id")
 )
 WITH (
