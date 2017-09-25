@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Linq;
+using AltonikaShop.Application.Pagging;
 using AltonikaShop.Application.Services.Interfaces;
-using AltonikaShop.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace AltonikaShop.WebApi.Controllers
 {
@@ -18,8 +20,14 @@ namespace AltonikaShop.WebApi.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Json(_productService.GetAll());
+            return Json(_productService.GetAll().ToList());
         }
+
+        //[HttpPost]
+        //public IActionResult GetAll([FromBody] PaggingOptions options)
+        //{
+        //    return Json(Paginator.Page(_productService.GetAll().ToList(), options));
+        //}
 
         [HttpGet("{id}")]
         public IActionResult GetById(int? id)

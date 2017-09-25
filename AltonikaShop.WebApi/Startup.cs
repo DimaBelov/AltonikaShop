@@ -10,6 +10,7 @@ using CoreLib.Data.Entity;
 using CoreLib.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -44,11 +45,17 @@ namespace AltonikaShop.WebApi
             services.AddMvc()
                 .AddExceptionFilter();
 
-            var defaultConnection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME).Get<List<DataConnection>>().First();
-            ForMigrations(services, defaultConnection);
+            var connection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME)
+                .Get<List<DataConnection>>()
+                .First();
+
+           //const string webapiAssemblyName = "AltonikaShop.WebApi";
 
             services
-                .AddSingleton<EfDbContext>(provider => new AppDbContext(defaultConnection))
+                
+                //.AddDbContext<AppDbContext>(options => options.UseNpgsql(connection.ConnectionString, b => b.MigrationsAssembly(webapiAssemblyName)))
+
+                .AddSingleton<DbContext>(new AppDbContext(connection))
                 .AddScoped<IEntityRepository<User>, EntityRepository<User>>()
                 .AddScoped<IUserService, UserService>()
                 .AddScoped<IEntityRepository<Product>, EntityRepository<Product>>()
@@ -70,13 +77,6 @@ namespace AltonikaShop.WebApi
             app.UseSwaggerWithUi(serviceProvider.GetService<Info>())
                 .UseMetrics(configuration => configuration.MemStatInterval = TimeSpan.FromSeconds(5))
                 .UseMvc();
-        }
-
-        void ForMigrations(IServiceCollection services, DataConnection connection)
-        {
-            services
-                .AddScoped(provider => connection)
-                .AddDbContext<AppDbContext>();
         }
     }
 }

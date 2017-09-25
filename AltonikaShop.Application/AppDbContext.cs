@@ -1,17 +1,16 @@
 ﻿using AltonikaShop.Domain.Entities;
 using CoreLib.Data;
-using CoreLib.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace AltonikaShop.Application
 {
-    public class AppDbContext : EfDbContext
+    public class AppDbContext : DbContext
     {
         const string WEBAPI_ASSEMBLY_NAME = "AltonikaShop.WebApi";
 
         readonly DataConnection _connection;
 
-        public AppDbContext(DataConnection connection) : base(connection)
+        public AppDbContext(DataConnection connection)
         {
             _connection = connection;
         }
