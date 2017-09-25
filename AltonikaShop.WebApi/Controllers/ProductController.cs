@@ -17,17 +17,17 @@ namespace AltonikaShop.WebApi.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            return Json(_productService.GetAll().ToList());
-        }
-
-        //[HttpPost]
-        //public IActionResult GetAll([FromBody] PaggingOptions options)
+        //[HttpGet]
+        //public IActionResult GetAll()
         //{
-        //    return Json(Paginator.Page(_productService.GetAll().ToList(), options));
+        //    return Json(_productService.GetAll().ToList());
         //}
+
+        [HttpPost]
+        public IActionResult GetAll([FromBody] PaggingOptions options)
+        {
+            return Json(Paginator.Page(_productService.GetAll().ToList(), options));
+        }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int? id)

@@ -1,0 +1,36 @@
+2017-09-26 00:00:10.905 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-26 00:00:10.911 [Information] Request finished in 6.6064ms 204 
+2017-09-26 00:00:10.947 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-26 00:00:10.949 [Information] Request finished in 1.9352ms 204 
+2017-09-26 00:00:11.036 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-26 00:00:11.037 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-26 00:00:11.040 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-26 00:00:11.040 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.6055ms
+2017-09-26 00:00:11.040 [Information] Request finished in 5.3065ms 200 application/json; charset=utf-8
+2017-09-26 00:00:11.055 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-26 00:00:11.056 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-26 00:00:11.058 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-26 00:00:11.058 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.9705ms
+2017-09-26 00:00:11.058 [Information] Request finished in 3.2057ms 200 application/json; charset=utf-8
+2017-09-26 00:00:13.712 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-26 00:00:13.713 [Information] Request finished in 0.5051ms 204 
+2017-09-26 00:00:13.727 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-26 00:00:13.728 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-26 00:00:13.738 [Error] Exception handeled by ExceptionFilter
+System.ArgumentException: PageNumber
+   at AltonikaShop.Application.Pagging.Paginator.Page[T](IEnumerable`1 all, PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.Application\Pagging\Paginator.cs:line 14
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-26 00:00:13.750 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-26 00:00:13.751 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 23.2057ms
+2017-09-26 00:00:13.751 [Information] Request finished in 24.6211ms 400 application/json; charset=utf-8

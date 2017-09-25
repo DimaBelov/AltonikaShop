@@ -24,3 +24,133 @@ Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:1
 debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
 checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
 
+25.09.2017 23:44:09
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:185:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:44:14
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:185:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:44:14
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:185:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:44:38
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:185:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:44:38
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:185:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:45:24
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:177:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:45:24
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:177:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:45:30
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:177:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:46:39
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:171:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+
+25.09.2017 23:46:39
+/list
+Error trying to diff '[object Object]'. Only arrays and iterables are allowedisListLikeIterable()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:6836:0
+ngDoCheck()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/common/@angular/common.es5.js:1691:29
+directive.ngOnInit()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10851:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:171:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+

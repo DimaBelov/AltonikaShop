@@ -3727,3 +3727,331 @@ System.InvalidOperationException: An attempt was made to use the context while i
 2017-09-25 23:36:57.843 [Information] Request finished in 92.8643ms 204 
 2017-09-25 23:36:57.865 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
 2017-09-25 23:36:57.893 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:41:05.556 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:05.556 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:06.088 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point.
+   at Microsoft.EntityFrameworkCore.DbContext.InitializeServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(DbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-25 23:41:06.150 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-25 23:41:06.276 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 290.0397ms
+2017-09-25 23:41:06.296 [Information] Request finished in 787.8464ms 400 application/json; charset=utf-8
+2017-09-25 23:41:06.754 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-25 23:41:07.523 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:41:07.546 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1564.8518ms
+2017-09-25 23:41:07.549 [Information] Request finished in 2045.1062ms 200 application/json; charset=utf-8
+2017-09-25 23:41:55.530 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:55.533 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-25 23:41:55.537 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:41:55.538 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.4694ms
+2017-09-25 23:41:55.538 [Information] Request finished in 8.7496ms 200 application/json; charset=utf-8
+2017-09-25 23:41:55.550 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:55.551 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-25 23:41:55.552 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:41:55.552 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.5702ms
+2017-09-25 23:41:55.553 [Information] Request finished in 2.8125ms 200 application/json; charset=utf-8
+2017-09-25 23:41:58.975 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:58.976 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-25 23:41:58.977 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:41:58.978 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.8304ms
+2017-09-25 23:41:58.978 [Information] Request finished in 3.3801ms 200 application/json; charset=utf-8
+2017-09-25 23:41:58.989 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/product  
+2017-09-25 23:41:58.990 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (null) - ModelState is Valid
+2017-09-25 23:41:58.991 [Information] Executing JsonResult, writing value "System.Collections.Generic.List`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:41:58.991 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.8808ms
+2017-09-25 23:41:58.992 [Information] Request finished in 3.3908ms 200 application/json; charset=utf-8
+2017-09-25 23:43:18.027 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:43:18.041 [Information] Request finished in 13.9134ms 204 
+2017-09-25 23:43:18.055 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:43:18.055 [Information] Request finished in 0.6778ms 204 
+2017-09-25 23:43:18.097 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:43:18.105 [Information] Request finished in 8.0812ms 404 
+2017-09-25 23:43:18.106 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:43:18.107 [Information] Request finished in 0.9701ms 404 
+2017-09-25 23:43:28.258 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:43:28.259 [Information] Request finished in 0.5229ms 204 
+2017-09-25 23:43:28.291 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:43:28.291 [Information] Request finished in 0.7001ms 204 
+2017-09-25 23:43:28.344 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:43:28.345 [Information] Request finished in 1.008ms 404 
+2017-09-25 23:43:28.346 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:43:28.347 [Information] Request finished in 0.9294ms 404 
+2017-09-25 23:44:06.817 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:06.817 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:06.976 [Information] Request finished in 192.2744ms 204 
+2017-09-25 23:44:06.976 [Information] Request finished in 192.257ms 204 
+2017-09-25 23:44:07.039 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:07.039 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:07.426 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point.
+   at Microsoft.EntityFrameworkCore.DbContext.InitializeServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(DbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-25 23:44:07.478 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-25 23:44:07.548 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 199.3373ms
+2017-09-25 23:44:07.557 [Information] Request finished in 518.1758ms 400 application/json; charset=utf-8
+2017-09-25 23:44:08.183 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:44:08.934 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:44:08.956 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1611.1677ms
+2017-09-25 23:44:08.958 [Information] Request finished in 1919.8411ms 200 application/json; charset=utf-8
+2017-09-25 23:44:09.718 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:44:09.719 [Information] Request finished in 0.6577ms 204 
+2017-09-25 23:44:09.727 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:44:09.741 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:44:09.751 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 20.8393ms
+2017-09-25 23:44:09.753 [Information] Request finished in 26.0673ms 200 
+2017-09-25 23:44:13.155 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:13.155 [Information] Request finished in 0.5403ms 204 
+2017-09-25 23:44:13.187 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:13.188 [Information] Request finished in 0.5671ms 204 
+2017-09-25 23:44:13.248 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:13.252 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:44:13.258 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:44:13.260 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 9.651ms
+2017-09-25 23:44:13.261 [Information] Request finished in 13.1102ms 200 application/json; charset=utf-8
+2017-09-25 23:44:13.264 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:13.265 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:44:13.267 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:44:13.267 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.4921ms
+2017-09-25 23:44:13.268 [Information] Request finished in 19.0754ms 200 application/json; charset=utf-8
+2017-09-25 23:44:14.789 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:44:14.790 [Information] Request finished in 0.5555ms 204 
+2017-09-25 23:44:14.803 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:44:14.803 [Information] Request finished in 0.6028ms 204 
+2017-09-25 23:44:14.813 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:44:14.815 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:44:14.816 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:44:14.817 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 2.7148ms
+2017-09-25 23:44:14.817 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:44:14.818 [Information] Request finished in 4.6885ms 200 
+2017-09-25 23:44:14.821 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 3.8697ms
+2017-09-25 23:44:14.821 [Information] Request finished in 5.2869ms 200 
+2017-09-25 23:44:37.084 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:37.085 [Information] Request finished in 0.6831ms 204 
+2017-09-25 23:44:37.137 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:44:37.138 [Information] Request finished in 3.7264ms 204 
+2017-09-25 23:44:37.203 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:37.203 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:44:37.204 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:44:37.206 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:44:37.206 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:44:37.207 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.0713ms
+2017-09-25 23:44:37.207 [Information] Request finished in 4.4252ms 200 application/json; charset=utf-8
+2017-09-25 23:44:37.207 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:44:37.208 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.3543ms
+2017-09-25 23:44:37.208 [Information] Request finished in 5.1552ms 200 application/json; charset=utf-8
+2017-09-25 23:44:38.826 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:44:38.827 [Information] Request finished in 0.5568ms 204 
+2017-09-25 23:44:38.839 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:44:38.840 [Information] Request finished in 0.5653ms 204 
+2017-09-25 23:44:38.850 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:44:38.852 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:44:38.853 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:44:38.854 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:44:38.855 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 4.3547ms
+2017-09-25 23:44:38.856 [Information] Request finished in 6.02ms 200 
+2017-09-25 23:44:38.858 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 3.8826ms
+2017-09-25 23:44:38.858 [Information] Request finished in 5.2423ms 200 
+2017-09-25 23:45:22.915 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:45:22.916 [Information] Request finished in 0.5952ms 204 
+2017-09-25 23:45:22.949 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:45:22.952 [Information] Request finished in 3.219ms 204 
+2017-09-25 23:45:23.018 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:45:23.019 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:45:23.022 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:45:23.022 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:45:23.023 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.4078ms
+2017-09-25 23:45:23.024 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:45:23.024 [Information] Request finished in 5.9045ms 200 application/json; charset=utf-8
+2017-09-25 23:45:23.025 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:45:23.026 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.9785ms
+2017-09-25 23:45:23.027 [Information] Request finished in 5.0089ms 200 application/json; charset=utf-8
+2017-09-25 23:45:24.630 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:45:24.631 [Information] Request finished in 0.5631ms 204 
+2017-09-25 23:45:24.642 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:45:24.643 [Information] Request finished in 1.5778ms 204 
+2017-09-25 23:45:24.657 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:45:24.658 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:45:24.659 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:45:24.660 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 2.1075ms
+2017-09-25 23:45:24.661 [Information] Request finished in 3.493ms 200 
+2017-09-25 23:45:24.668 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:45:24.670 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 2.825ms
+2017-09-25 23:45:24.671 [Information] Request finished in 11.3913ms 200 
+2017-09-25 23:45:28.789 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:45:28.789 [Information] Request finished in 0.5533ms 204 
+2017-09-25 23:45:28.824 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:45:28.825 [Information] Request finished in 0.6912ms 204 
+2017-09-25 23:45:28.888 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:45:28.889 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:45:28.890 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:45:28.891 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:45:28.891 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:45:28.891 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.3944ms
+2017-09-25 23:45:28.891 [Information] Request finished in 3.8576ms 200 application/json; charset=utf-8
+2017-09-25 23:45:28.892 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:45:28.892 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.991ms
+2017-09-25 23:45:28.893 [Information] Request finished in 3.2869ms 200 application/json; charset=utf-8
+2017-09-25 23:45:30.463 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:45:30.463 [Information] Request finished in 0.6091ms 204 
+2017-09-25 23:45:30.477 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:45:30.477 [Information] Request finished in 0.6006ms 204 
+2017-09-25 23:45:30.490 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:45:30.503 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:45:30.503 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:45:30.504 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:45:30.508 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 4.941ms
+2017-09-25 23:45:30.508 [Information] Request finished in 18.6537ms 200 
+2017-09-25 23:45:30.530 [Error] Exception handeled by ExceptionFilter
+System.IO.IOException: The process cannot access the file 'C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Logs\Frontend\log-25092017.txt' because it is being used by another process.
+   at System.IO.Win32FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, FileStream parent)
+   at System.IO.Win32FileSystem.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, FileStream parent)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at AltonikaShop.WebApi.Controllers.LogController.Log(LogModel model) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\LogController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<>c__DisplayClass37_0.<WrapVoidAction>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-25 23:45:30.551 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-25 23:45:30.552 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 48.5323ms
+2017-09-25 23:45:30.552 [Information] Request finished in 49.6327ms 400 application/json; charset=utf-8
+2017-09-25 23:46:37.932 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:46:37.932 [Information] Request finished in 0.8032ms 204 
+2017-09-25 23:46:38.000 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:46:38.000 [Information] Request finished in 0.6858ms 204 
+2017-09-25 23:46:38.018 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:46:38.019 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:46:38.021 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:46:38.022 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3.1749ms
+2017-09-25 23:46:38.023 [Information] Request finished in 4.6122ms 200 application/json; charset=utf-8
+2017-09-25 23:46:38.041 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:46:38.042 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:46:38.043 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:46:38.044 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.7692ms
+2017-09-25 23:46:38.044 [Information] Request finished in 2.9553ms 200 application/json; charset=utf-8
+2017-09-25 23:46:39.571 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:46:39.571 [Information] Request finished in 0.5502ms 204 
+2017-09-25 23:46:39.586 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-25 23:46:39.587 [Information] Request finished in 1.2623ms 204 
+2017-09-25 23:46:39.599 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:46:39.601 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:46:39.608 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 7.4819ms
+2017-09-25 23:46:39.608 [Information] Request finished in 9.2048ms 200 
+2017-09-25 23:46:39.609 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1235
+2017-09-25 23:46:39.611 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-25 23:46:39.614 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 4.2124ms
+2017-09-25 23:46:39.615 [Information] Request finished in 8.0972ms 200 
+2017-09-25 23:55:38.647 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:55:38.648 [Information] Request finished in 0.9674ms 204 
+2017-09-25 23:55:38.649 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:55:38.651 [Information] Request finished in 1.9308ms 204 
+2017-09-25 23:55:38.657 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:55:38.658 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:55:38.670 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:55:38.671 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:55:38.685 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-25 23:55:38.700 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-25 23:55:38.700 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 29.9031ms
+2017-09-25 23:55:38.701 [Information] Request finished in 31.2918ms 400 application/json; charset=utf-8
+2017-09-25 23:55:38.733 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:55:38.734 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 76.0414ms
+2017-09-25 23:55:38.734 [Information] Request finished in 77.3114ms 200 application/json; charset=utf-8
+2017-09-25 23:55:44.355 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:55:44.355 [Information] Request finished in 0.5269ms 204 
+2017-09-25 23:55:44.387 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:55:44.387 [Information] Request finished in 0.6979ms 204 
+2017-09-25 23:55:44.406 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:55:44.407 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:55:44.408 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:55:44.408 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.9491ms
+2017-09-25 23:55:44.408 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:55:44.409 [Information] Request finished in 3.2226ms 200 application/json; charset=utf-8
+2017-09-25 23:55:44.409 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:55:44.410 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:55:44.411 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.7197ms
+2017-09-25 23:55:44.411 [Information] Request finished in 2.7206ms 200 application/json; charset=utf-8
+2017-09-25 23:56:13.924 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:56:13.924 [Information] Request finished in 0.6166ms 204 
+2017-09-25 23:56:13.958 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:56:13.958 [Information] Request finished in 0.5345ms 204 
+2017-09-25 23:56:14.037 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:56:14.038 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:56:14.039 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:56:14.040 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.9745ms
+2017-09-25 23:56:14.040 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:56:14.040 [Information] Request finished in 3.1508ms 200 application/json; charset=utf-8
+2017-09-25 23:56:14.041 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:56:14.042 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:56:14.042 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1.7255ms
+2017-09-25 23:56:14.043 [Information] Request finished in 2.9803ms 200 application/json; charset=utf-8
+2017-09-25 23:59:48.522 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:59:48.523 [Information] Request finished in 0.7452ms 204 
+2017-09-25 23:59:48.524 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-25 23:59:48.526 [Information] Request finished in 1.5497ms 204 
+2017-09-25 23:59:48.527 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:59:48.529 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:59:48.530 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:59:48.530 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.5885ms
+2017-09-25 23:59:48.531 [Information] Request finished in 4.485ms 200 application/json; charset=utf-8
+2017-09-25 23:59:48.532 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-25 23:59:48.534 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-25 23:59:48.535 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-25 23:59:48.535 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2.7278ms
+2017-09-25 23:59:48.536 [Information] Request finished in 4.3123ms 200 application/json; charset=utf-8
