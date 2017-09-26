@@ -33,6 +33,14 @@ namespace AltonikaShop.Application.Pagging
             result.CanNext = startIndex + options.PageSize - 1 < list.Count - 1;
             result.CanPrev = options.PageNumber > 1;
 
+            var pagesCount = result.TotalCount % options.PageSize == 0
+                ? result.TotalCount / options.PageSize
+                : result.TotalCount / options.PageSize + 1;
+
+            result.PageNumbers = new List<int>();
+            for (var i = 1; i <= pagesCount; i++)
+                result.PageNumbers.Add(i);
+
             return result;
         }
     }

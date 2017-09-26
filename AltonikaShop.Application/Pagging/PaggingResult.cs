@@ -11,5 +11,7 @@ namespace AltonikaShop.Application.Pagging
         public bool CanNext { get; set; }
 
         public bool CanPrev { get; set; }
+
+        public List<int> PageNumbers;
     }
 }

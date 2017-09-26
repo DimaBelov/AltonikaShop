@@ -232,3 +232,367 @@ asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@a
 checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
 execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
 
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:02
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:34:09
+/list?search=
+pageNumberElemet.scrollTo is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+selectPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:108:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:153:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:05
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+selectPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:108:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:153:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:06
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+selectPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:108:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:153:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:10
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:13
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:13
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:13
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:13
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:14
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:37:14
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:50:00
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:50:00
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+selectPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:108:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:153:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:50:00
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+selectPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:108:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:153:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:50:00
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 15:50:00
+/list?search=
+pageNumberElemet.scroll is not a functionscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:303:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+26.09.2017 16:04:29
+/list?search=
+Cannot read property 'scrollIntoView' of nullscrollPageNumber()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:116:21
+nextPage()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:96:9
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:282:27
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
