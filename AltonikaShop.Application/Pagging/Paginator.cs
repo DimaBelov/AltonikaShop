@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using CoreLib.CrossCutting.Extensions;
+using CoreLib.Entities;
 
 namespace AltonikaShop.Application.Pagging
 {
     public static class Paginator
     {
-        public static PaggingResult<T> Page<T>(IEnumerable<T> all, PaggingOptions options)
+        public static PaggingResult<T> Page<T>(IEnumerable<T> all, PaggingOptions options) where T: NamedEntity
         {
             if (options.PageNumber <= 0)
                 throw new ArgumentException(nameof(options.PageNumber));
@@ -14,25 +16,22 @@ namespace AltonikaShop.Application.Pagging
             if (options.PageSize <= 0)
                 throw new ArgumentException(nameof(options.PageSize));
 
-            var list = all.ToList();
+            var list = options.SearchText.IsNullOrEmptyOrWhiteSpace() ?
+                all.ToList() :
+                all.Where(i => i.Name.ToLower().Contains(options.SearchText.ToLower())).ToList();
+
             var result = new PaggingResult<T> { TotalCount = list.Count };
             var startIndex = 0;
-            var endIndex = startIndex + options.PageSize;
 
             if (options.PageNumber != 1)
                 startIndex = options.PageSize * (options.PageNumber - 1);
-
-            if (startIndex + options.PageSize > list.Count)
-            {
-                result.Items = list.GetRange(startIndex, list.Count - startIndex).ToList();
-            }
-            else
-            {
-                result.Items = list.GetRange(startIndex, options.PageSize).ToList();
-            }
-
-            result.CanNext = endIndex < list.Count - 1;
-            result.CanPrev = options.PageSize > 1;
+            
+            result.Items = startIndex + options.PageSize > list.Count ? 
+                list.GetRange(startIndex, list.Count - startIndex).ToList() : 
+                list.GetRange(startIndex, options.PageSize).ToList();
+            
+            result.CanNext = startIndex + options.PageSize - 1 < list.Count - 1;
+            result.CanPrev = options.PageNumber > 1;
 
             return result;
         }

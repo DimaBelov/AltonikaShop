@@ -1,0 +1,234 @@
+26.09.2017 10:13:55
+/list
+Cannot read property 'viewValue' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:184:33
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 10:13:55
+/list
+Cannot read property 'viewValue' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:184:33
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 10:21:17
+/list
+_co.nextPage is not a functionObject.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:240:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+
+26.09.2017 10:21:17
+/list
+_co.nextPage is not a functionObject.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:240:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+
+26.09.2017 10:38:39
+/list
+_co.nextPage is not a functionObject.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:236:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+
+26.09.2017 10:38:39
+/list
+_co.nextPage is not a functionObject.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:236:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+
+26.09.2017 10:38:39
+/list
+_co.nextPage is not a functionObject.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:212:31
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+
+26.09.2017 10:43:13
+/list
+Cannot read property 'canPrev' of undefinedObject.View_ListComponent_0._co [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:305:38
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 10:43:21
+/list
+Cannot read property 'canPrev' of undefinedObject.View_ListComponent_0._co [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:305:38
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 10:43:21
+/list
+Cannot read property 'canPrev' of undefinedObject.View_ListComponent_0._co [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:305:38
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:13:10
+/list
+Cannot read property 'canPrev' of undefinedObject.View_ListComponent_0._co [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:304:39
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:13:38
+/list
+Cannot read property 'canPrev' of undefinedObject.View_ListComponent_0._co [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:304:39
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:15:46
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:15:49
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:17:09
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:17:09
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:20:00
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+26.09.2017 12:20:00
+/list
+Cannot read property 'pageNumber' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/ListComponent.ngfactory.js:319:39
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
