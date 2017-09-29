@@ -1,0 +1,13 @@
+29.09.2017 14:21:52
+/basket
+No component factory found for MessengerComponent. Did you add it to @NgModule.entryComponents?noComponentFactoryError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3202:21
+this._parent.resolveComponentFactory()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3267:0
+attachComponentPortal()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/cdk/@angular/cdk/portal.es5.js:495:25
+this._portalHost.hasAttached()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:17260:0
+dialogRef.close()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:17603:29
+this.getDialogById()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:17507:25
+show()@webpack:///C:/GitHub/altonika-shop/src/services/messenger.ts:24:21
+buy()@webpack:///C:/GitHub/altonika-shop/src/app/basket/basket.component.ts:67:26
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:185:0
+

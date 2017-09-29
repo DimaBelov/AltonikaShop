@@ -14,7 +14,7 @@ namespace AltonikaShop.Application.Services
 
         public IEnumerable<Order> GetByUser(int userId)
         {
-            return Repository.GetAll(
+            return Repository.GetAllNoTrack(
                 new Query<Order>
                 {
                     IsSatisfied = order => order.UserId == userId,

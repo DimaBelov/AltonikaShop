@@ -53,7 +53,8 @@ namespace AltonikaShop.WebApi
 
             services
                 
-                //.AddDbContext<AppDbContext>(options => options.UseNpgsql(connection.ConnectionString, b => b.MigrationsAssembly(webapiAssemblyName)))
+                .AddSingleton(connection)
+                .AddDbContext<AppDbContext>()
 
                 .AddSingleton<DbContext>(new AppDbContext(connection))
                 .AddScoped<IEntityRepository<User>, EntityRepository<User>>()

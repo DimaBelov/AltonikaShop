@@ -1,0 +1,287 @@
+2017-09-29 13:38:39.397 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:39.397 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:39.593 [Information] Request finished in 235.9244ms 204 
+2017-09-29 13:38:39.593 [Information] Request finished in 235.0445ms 204 
+2017-09-29 13:38:39.748 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:39.748 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:40.215 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point.
+   at Microsoft.EntityFrameworkCore.DbContext.InitializeServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(DbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 13:38:40.269 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:38:40.353 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 245.4733ms
+2017-09-29 13:38:40.361 [Information] Request finished in 613.7833ms 400 application/json; charset=utf-8
+2017-09-29 13:38:41.027 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:38:42.107 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:38:42.139 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2038.0401ms
+2017-09-29 13:38:42.143 [Information] Request finished in 2394.4509ms 200 application/json; charset=utf-8
+2017-09-29 13:38:46.591 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:46.593 [Information] Request finished in 2.2248ms 204 
+2017-09-29 13:38:46.653 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:46.654 [Information] Request finished in 0.7041ms 204 
+2017-09-29 13:38:46.711 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:46.713 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:46.717 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:38:46.717 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:38:46.725 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:38:46.726 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 10.7335ms
+2017-09-29 13:38:46.726 [Information] Request finished in 13.1887ms 200 application/json; charset=utf-8
+2017-09-29 13:38:46.751 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 13:38:46.774 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:38:46.775 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 60.1048ms
+2017-09-29 13:38:46.776 [Information] Request finished in 64.7746ms 400 application/json; charset=utf-8
+2017-09-29 13:38:52.228 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:52.229 [Information] Request finished in 0.5698ms 204 
+2017-09-29 13:38:52.279 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:38:52.281 [Information] Request finished in 2.8246ms 204 
+2017-09-29 13:38:52.326 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:52.327 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:38:52.331 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:38:52.331 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.8152ms
+2017-09-29 13:38:52.332 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:38:52.332 [Information] Request finished in 6.286ms 200 application/json; charset=utf-8
+2017-09-29 13:38:52.333 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:38:52.336 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:38:52.337 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.3725ms
+2017-09-29 13:38:52.337 [Information] Request finished in 5.7536ms 200 application/json; charset=utf-8
+2017-09-29 13:38:59.941 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:38:59.942 [Information] Request finished in 0.6198ms 204 
+2017-09-29 13:38:59.946 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 911
+2017-09-29 13:38:59.994 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:39:00.460 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:39:00.478 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:39:00.479 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 531.1831ms
+2017-09-29 13:39:00.480 [Information] Request finished in 533.719ms 400 application/json; charset=utf-8
+2017-09-29 13:39:20.787 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:39:20.788 [Information] Request finished in 0.7817ms 204 
+2017-09-29 13:39:20.792 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 911
+2017-09-29 13:39:20.794 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:39:20.810 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:39:20.829 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:39:20.830 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 36.8107ms
+2017-09-29 13:39:20.831 [Information] Request finished in 38.651ms 400 application/json; charset=utf-8
+2017-09-29 13:41:39.328 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:41:39.489 [Information] Request finished in 190.8401ms 204 
+2017-09-29 13:41:39.546 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 911
+2017-09-29 13:41:40.682 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:41:41.782 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:41:41.827 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:41:41.886 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 2040.4261ms
+2017-09-29 13:41:41.892 [Information] Request finished in 2345.915ms 400 application/json; charset=utf-8
+2017-09-29 13:41:51.017 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:41:51.017 [Information] Request finished in 0.7255ms 204 
+2017-09-29 13:41:51.028 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 309
+2017-09-29 13:41:51.031 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:41:51.051 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:41:51.072 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:41:51.072 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 41.9624ms
+2017-09-29 13:41:51.075 [Information] Request finished in 47.7889ms 400 application/json; charset=utf-8
+2017-09-29 13:42:01.245 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:42:01.245 [Information] Request finished in 0.6559ms 204 
+2017-09-29 13:42:01.260 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:42:01.260 [Information] Request finished in 0.6885ms 204 
+2017-09-29 13:42:01.307 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:42:01.321 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:42:01.418 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:42:01.434 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 124.1811ms
+2017-09-29 13:42:01.435 [Information] Request finished in 128.2145ms 200 application/json; charset=utf-8
+2017-09-29 13:42:01.438 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:42:01.439 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:42:01.464 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:42:01.466 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 26.8888ms
+2017-09-29 13:42:01.467 [Information] Request finished in 30.8264ms 200 application/json; charset=utf-8
+2017-09-29 13:42:04.900 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:42:04.901 [Information] Request finished in 0.6559ms 204 
+2017-09-29 13:42:04.907 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 645
+2017-09-29 13:42:04.910 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:42:04.924 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:42:04.945 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:42:04.945 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 36.692ms
+2017-09-29 13:42:04.946 [Information] Request finished in 38.5653ms 400 application/json; charset=utf-8
+2017-09-29 13:45:12.465 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:45:12.466 [Information] Request finished in 0.6836ms 204 
+2017-09-29 13:45:12.468 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 13:45:12.470 [Information] Request finished in 2.095ms 204 
+2017-09-29 13:45:12.472 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:45:12.474 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:45:12.479 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:45:12.479 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.983ms
+2017-09-29 13:45:12.480 [Information] Request finished in 7.4984ms 200 application/json; charset=utf-8
+2017-09-29 13:45:12.483 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 13:45:12.484 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:45:12.487 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:45:12.488 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.5903ms
+2017-09-29 13:45:12.488 [Information] Request finished in 5.9544ms 200 application/json; charset=utf-8
+2017-09-29 13:45:21.224 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 13:45:21.225 [Information] Request finished in 0.8099ms 204 
+2017-09-29 13:45:21.229 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 562
+2017-09-29 13:45:21.231 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:45:21.245 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23502: нулевое значение в столбце "Code" нарушает ограничение NOT NULL
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:45:21.262 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:45:21.263 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 32.576ms
+2017-09-29 13:45:21.263 [Information] Request finished in 33.8995ms 400 application/json; charset=utf-8

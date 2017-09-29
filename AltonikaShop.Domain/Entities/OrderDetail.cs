@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using CoreLib.Entities;
+﻿using CoreLib.Entities;
 
 namespace AltonikaShop.Domain.Entities
 {
@@ -8,8 +7,7 @@ namespace AltonikaShop.Domain.Entities
         public int? OrderId { get; set; }
 
         public int? ProductId { get; set; }
-
-        //[NotMapped]
+        
         public Product Product { get; set; }
 
         public int Quantity { get; set; }

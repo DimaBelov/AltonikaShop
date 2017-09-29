@@ -1,6 +1,7 @@
 ﻿using AltonikaShop.Domain.Entities;
 using CoreLib.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace AltonikaShop.Application
 {
@@ -17,8 +18,18 @@ namespace AltonikaShop.Application
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(_connection.ConnectionString, b => b.MigrationsAssembly(WEBAPI_ASSEMBLY_NAME));
+            optionsBuilder
+                .UseNpgsql(_connection.ConnectionString, b => b.MigrationsAssembly(WEBAPI_ASSEMBLY_NAME))
+                .ConfigureWarnings(warnings => warnings.Throw(CoreEventId.IncludeIgnoredWarning));
         }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<OrderDetail>(entity =>
+        //    {
+        //        entity.Ignore(e => e.Product);
+        //    });
+        //}
 
         public DbSet<User> Users { get; set; }
 

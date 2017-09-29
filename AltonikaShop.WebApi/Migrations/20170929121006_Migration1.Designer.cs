@@ -8,8 +8,8 @@ using AltonikaShop.Application;
 namespace AltonikaShop.WebApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20170922134928_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20170929121006_Migration1")]
+    partial class Migration1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -56,9 +56,13 @@ namespace AltonikaShop.WebApi.Migrations
                     b.Property<int?>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Code");
+
                     b.Property<string>("Description");
 
                     b.Property<string>("ImageSource");
+
+                    b.Property<bool>("IsDeleted");
 
                     b.Property<string>("Name");
 

@@ -55,9 +55,13 @@ namespace AltonikaShop.WebApi.Migrations
                     b.Property<int?>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Code");
+
                     b.Property<string>("Description");
 
                     b.Property<string>("ImageSource");
+
+                    b.Property<bool>("IsDeleted");
 
                     b.Property<string>("Name");
 

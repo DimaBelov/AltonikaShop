@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace AltonikaShop.WebApi.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Migration1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +15,8 @@ namespace AltonikaShop.WebApi.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    CreateDate = table.Column<DateTime>(nullable: false),
-                    UserId = table.Column<int>(nullable: false)
+                    CreateDate = table.Column<DateTime>(nullable: true),
+                    UserId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -28,10 +29,12 @@ namespace AltonikaShop.WebApi.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Code = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
                     ImageSource = table.Column<string>(nullable: true),
-                    Name = table.Column<string>(nullable: false),
-                    Price = table.Column<decimal>(nullable: false)
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    Name = table.Column<string>(nullable: true),
+                    Price = table.Column<decimal>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -44,9 +47,9 @@ namespace AltonikaShop.WebApi.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    Login = table.Column<string>(nullable: false),
-                    Name = table.Column<string>(nullable: false),
-                    Password = table.Column<string>(nullable: false)
+                    Login = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    Password = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -59,8 +62,8 @@ namespace AltonikaShop.WebApi.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    OrderId = table.Column<int>(nullable: false),
-                    ProductId = table.Column<int>(nullable: false),
+                    OrderId = table.Column<int>(nullable: true),
+                    ProductId = table.Column<int>(nullable: true),
                     Quantity = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

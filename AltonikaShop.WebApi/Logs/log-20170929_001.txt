@@ -1,0 +1,924 @@
+2017-09-29 13:49:33.957 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-29 13:49:33.957 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-29 13:49:37.362 [Information] Request finished in 3925.7001ms 200 
+2017-09-29 13:49:41.408 [Information] Request finished in 7984.7893ms 404 
+2017-09-29 13:49:41.436 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-29 13:49:41.443 [Information] Request finished in 6.5818ms 404 
+2017-09-29 13:50:57.777 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-29 13:50:57.806 [Information] Request finished in 55.9504ms 204 
+2017-09-29 13:50:57.819 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 562
+2017-09-29 13:51:06.979 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:51:29.728 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23505: повторяющееся значение ключа нарушает ограничение уникальности "Products_pkey"
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:51:29.790 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:51:29.853 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 30730.7372ms
+2017-09-29 13:51:29.863 [Information] Request finished in 32046.7273ms 400 application/json; charset=utf-8
+2017-09-29 13:51:46.736 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/order/user/1  
+2017-09-29 13:51:46.763 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 13:51:46.793 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 13:51:47.035 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 291.7ms
+2017-09-29 13:51:47.042 [Information] Request finished in 304.5514ms 200 application/json; charset=utf-8
+2017-09-29 13:51:53.883 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-09-29 13:51:53.903 [Information] Request finished in 20.3511ms 204 
+2017-09-29 13:51:53.949 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-09-29 13:51:53.960 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-09-29 13:51:53.971 [Information] Request finished in 62.5309ms 204 
+2017-09-29 13:51:53.994 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-09-29 13:51:54.011 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:51:54.011 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:51:54.202 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:51:54.219 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 13:51:54.224 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 220.5527ms
+2017-09-29 13:51:54.253 [Information] Request finished in 242.0297ms 200 application/json; charset=utf-8
+2017-09-29 13:51:54.281 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:51:54.287 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 318.2443ms
+2017-09-29 13:51:54.295 [Information] Request finished in 348.4344ms 400 application/json; charset=utf-8
+2017-09-29 13:52:10.190 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-29 13:52:10.204 [Information] Request finished in 9.8429ms 204 
+2017-09-29 13:52:10.212 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 1183
+2017-09-29 13:52:10.227 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:52:13.350 [Error] Exception handeled by ExceptionFilter
+Npgsql.PostgresException: 23505: повторяющееся значение ключа нарушает ограничение уникальности "Products_pkey"
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Microsoft.EntityFrameworkCore.Update.Internal.NpgsqlModificationCommandBatch.Consume(DbDataReader reader)
+2017-09-29 13:52:13.379 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:52:13.384 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 3159.4573ms
+2017-09-29 13:52:13.404 [Information] Request finished in 3180.5202ms 400 application/json; charset=utf-8
+2017-09-29 13:54:07.186 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-09-29 13:54:07.186 [Information] Request starting HTTP/1.1 DEBUG http://localhost:53519/  0
+2017-09-29 13:54:07.478 [Information] Request finished in 358.9507ms 200 
+2017-09-29 13:54:07.815 [Information] Request finished in 705.8153ms 404 
+2017-09-29 13:54:07.844 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-09-29 13:54:07.852 [Information] Request finished in 5.0754ms 404 
+2017-09-29 13:54:34.887 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/order/user/1  
+2017-09-29 13:54:38.422 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 13:54:38.606 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 13:54:39.088 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 4032.8482ms
+2017-09-29 13:54:39.426 [Error] Connection id ""0HL8751K1THJN"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 13:54:39.491 [Information] Request finished in 4604.524ms 200 application/json; charset=utf-8
+2017-09-29 13:54:43.276 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/order/user/1  
+2017-09-29 13:54:43.292 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 13:54:43.305 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 13:54:43.544 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 256.3894ms
+2017-09-29 13:54:43.804 [Error] Connection id ""0HL8751K1THJO"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 13:54:43.874 [Information] Request finished in 601.6356ms 200 application/json; charset=utf-8
+2017-09-29 13:56:23.998 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-09-29 13:56:24.016 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-09-29 13:56:24.045 [Information] Request finished in 16.0437ms 204 
+2017-09-29 13:56:24.065 [Information] Request finished in 34.0164ms 204 
+2017-09-29 13:56:24.065 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-09-29 13:56:24.096 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-09-29 13:56:24.236 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:56:24.239 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 13:56:24.479 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 13:56:24.535 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 13:56:24.661 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 494.2978ms
+2017-09-29 13:56:24.707 [Information] Request finished in 623.4218ms 400 application/json; charset=utf-8
+2017-09-29 13:56:25.068 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 13:56:25.102 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 973.7992ms
+2017-09-29 13:56:25.109 [Information] Request finished in 1013.4801ms 200 application/json; charset=utf-8
+2017-09-29 13:56:30.369 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-09-29 13:56:30.381 [Information] Request finished in 8.0169ms 204 
+2017-09-29 13:56:30.408 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 1183
+2017-09-29 13:56:30.458 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 13:56:30.848 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-09-29 13:56:30.864 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 447.8851ms
+2017-09-29 13:56:30.884 [Information] Request finished in 482.3777ms 200 application/json; charset=utf-8
+2017-09-29 13:56:42.376 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/v1/order/user/1  
+2017-09-29 13:56:42.382 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 13:56:42.391 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 13:56:42.587 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 205.219ms
+2017-09-29 13:56:42.794 [Error] Connection id ""0HL8751K1THJQ"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 13:56:42.857 [Information] Request finished in 481.0287ms 200 application/json; charset=utf-8
+2017-09-29 14:09:03.198 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 14:09:04.400 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 14:09:04.572 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 14:09:04.882 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1246.7276ms
+2017-09-29 14:09:04.973 [Error] Connection id ""0HL8759V3NQDU"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 14:09:05.010 [Information] Request finished in 1854.282ms 200 application/json; charset=utf-8
+2017-09-29 14:09:17.259 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:09:17.272 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:09:17.276 [Information] Request finished in 4.0209ms 204 
+2017-09-29 14:09:17.276 [Information] Request finished in 17.6724ms 204 
+2017-09-29 14:09:17.284 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:09:17.284 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:09:17.399 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:09:17.400 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:09:17.459 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 14:09:17.501 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 14:09:17.545 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 258.0235ms
+2017-09-29 14:09:17.550 [Information] Request finished in 265.2586ms 400 application/json; charset=utf-8
+2017-09-29 14:09:17.918 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:09:17.940 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 653.1282ms
+2017-09-29 14:09:17.945 [Information] Request finished in 659.8225ms 200 application/json; charset=utf-8
+2017-09-29 14:09:23.614 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 14:09:23.614 [Information] Request finished in 0.6666ms 204 
+2017-09-29 14:09:23.619 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 645
+2017-09-29 14:09:23.661 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 14:09:24.018 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-09-29 14:09:24.027 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 406.9828ms
+2017-09-29 14:09:24.028 [Information] Request finished in 409.3907ms 200 application/json; charset=utf-8
+2017-09-29 14:09:34.793 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 14:09:34.794 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 14:09:34.795 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 14:09:34.802 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 7.1307ms
+2017-09-29 14:09:34.842 [Error] Connection id ""0HL8759V3NQE1"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 14:09:34.888 [Information] Request finished in 95.0026ms 200 application/json; charset=utf-8
+2017-09-29 14:19:49.812 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 14:19:51.019 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 14:19:51.180 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 14:19:52.201 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1931.7572ms
+2017-09-29 14:19:52.222 [Information] Request finished in 2445.7632ms 200 application/json; charset=utf-8
+2017-09-29 14:19:58.200 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:19:58.216 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:19:58.218 [Information] Request finished in 2.2637ms 204 
+2017-09-29 14:19:58.218 [Information] Request finished in 18.2271ms 204 
+2017-09-29 14:19:58.265 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:19:58.268 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:19:58.376 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:19:58.377 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:19:58.397 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:19:58.406 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 138.7326ms
+2017-09-29 14:19:58.407 [Information] Request finished in 142.1628ms 200 application/json; charset=utf-8
+2017-09-29 14:19:58.480 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 14:19:58.550 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 14:19:58.608 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 337.5879ms
+2017-09-29 14:19:58.614 [Information] Request finished in 347.9396ms 400 application/json; charset=utf-8
+2017-09-29 14:20:04.253 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 14:20:04.254 [Information] Request finished in 0.6921ms 204 
+2017-09-29 14:20:04.258 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 562
+2017-09-29 14:20:04.297 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 14:20:04.536 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-09-29 14:20:04.537 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 276.878ms
+2017-09-29 14:20:04.537 [Information] Request finished in 279.1672ms 200 application/json; charset=utf-8
+2017-09-29 14:21:48.167 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:21:48.168 [Information] Request finished in 0.8063ms 204 
+2017-09-29 14:21:48.186 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:21:48.187 [Information] Request finished in 0.6086ms 204 
+2017-09-29 14:21:48.246 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:21:48.247 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:21:48.253 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:21:48.254 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 7.0874ms
+2017-09-29 14:21:48.254 [Information] Request finished in 8.995ms 200 application/json; charset=utf-8
+2017-09-29 14:21:48.260 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:21:48.261 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:21:48.265 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:21:48.266 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.3489ms
+2017-09-29 14:21:48.266 [Information] Request finished in 7.356ms 200 application/json; charset=utf-8
+2017-09-29 14:21:52.024 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 14:21:52.025 [Information] Request finished in 0.7809ms 204 
+2017-09-29 14:21:52.029 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 645
+2017-09-29 14:21:52.032 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 14:21:52.038 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-09-29 14:21:52.038 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 7.6398ms
+2017-09-29 14:21:52.039 [Information] Request finished in 9.3708ms 200 application/json; charset=utf-8
+2017-09-29 14:21:52.944 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/log  
+2017-09-29 14:21:52.945 [Information] Request finished in 0.5939ms 204 
+2017-09-29 14:21:52.961 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/log application/json 1207
+2017-09-29 14:21:52.974 [Information] Executing action method "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" with arguments (["AltonikaShop.WebApi.Models.LogModel"]) - ModelState is Valid
+2017-09-29 14:21:52.987 [Information] Executed action "AltonikaShop.WebApi.Controllers.LogController.Log (AltonikaShop.WebApi)" in 22.3627ms
+2017-09-29 14:21:52.988 [Information] Request finished in 27.1133ms 200 
+2017-09-29 14:23:14.524 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:23:14.524 [Information] Request finished in 0.6108ms 204 
+2017-09-29 14:23:14.542 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 14:23:14.543 [Information] Request finished in 0.5618ms 204 
+2017-09-29 14:23:14.599 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:23:14.600 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:23:14.604 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:23:14.604 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.3319ms
+2017-09-29 14:23:14.604 [Information] Request finished in 5.6077ms 200 application/json; charset=utf-8
+2017-09-29 14:23:14.608 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 14:23:14.610 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 14:23:14.615 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 14:23:14.615 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 6.5403ms
+2017-09-29 14:23:14.616 [Information] Request finished in 8.1593ms 200 application/json; charset=utf-8
+2017-09-29 14:23:18.538 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-09-29 14:23:18.538 [Information] Request finished in 0.5903ms 204 
+2017-09-29 14:23:18.542 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 645
+2017-09-29 14:23:18.544 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-09-29 14:23:18.549 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-09-29 14:23:18.550 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 6.0071ms
+2017-09-29 14:23:18.550 [Information] Request finished in 8.0147ms 200 application/json; charset=utf-8
+2017-09-29 15:30:05.494 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 15:30:05.494 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-09-29 15:30:05.687 [Information] Request finished in 222.5755ms 204 
+2017-09-29 15:30:05.687 [Information] Request finished in 222.9958ms 204 
+2017-09-29 15:30:05.754 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 15:30:05.754 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-09-29 15:30:06.217 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: An attempt was made to use the context while it is being configured. A DbContext instance cannot be used inside OnConfiguring since it is still being configured at this point.
+   at Microsoft.EntityFrameworkCore.DbContext.InitializeServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CoreLib.Data.Entity.EntityRepository`1..ctor(DbContext context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass16_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache.CreateInstance[TInstance](IServiceProvider serviceProvider, Type implementationType)
+   at Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory.CreateController(ControllerContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-09-29 15:30:06.275 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-09-29 15:30:06.382 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 243.3774ms
+2017-09-29 15:30:06.405 [Information] Request finished in 648.0858ms 400 application/json; charset=utf-8
+2017-09-29 15:30:07.106 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-09-29 15:30:07.966 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-09-29 15:30:07.999 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 1867.3677ms
+2017-09-29 15:30:08.007 [Information] Request finished in 2249.4296ms 200 application/json; charset=utf-8
+2017-09-29 15:30:16.473 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 15:30:16.497 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 15:30:16.509 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 15:30:16.561 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 82.6153ms
+2017-09-29 15:30:16.612 [Error] Connection id ""0HL876N867VTB"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 15:30:16.642 [Information] Request finished in 168.8084ms 200 application/json; charset=utf-8
+2017-09-29 15:39:42.104 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 15:39:43.280 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 15:39:43.448 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 15:39:43.778 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 1262.3452ms
+2017-09-29 15:39:43.869 [Error] Connection id ""0HL876SJF5QJI"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 15:39:43.911 [Information] Request finished in 1845.635ms 200 application/json; charset=utf-8
+2017-09-29 15:40:00.417 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-09-29 15:40:00.421 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-09-29 15:40:00.422 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-09-29 15:40:00.428 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 7.9076ms
+2017-09-29 15:40:00.464 [Error] Connection id ""0HL876SJF5QJK"": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindPropertyExpressionCore[TResult](Expression propertyExpression, IQuerySource querySource, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.BindNavigationPathPropertyExpression[TResult](Expression propertyExpression, Func`3 propertyBinder)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.<IncludeNavigations>b__41_0(IncludeResultOperator includeResultOperator)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source, Int32& length)
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__3.MoveNext()
+   at System.Linq.Enumerable.SelectIPartitionIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.IncludeNavigations(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database, ILogger logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_0`1.<CompileQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-09-29 15:40:00.508 [Information] Request finished in 91.1311ms 200 application/json; charset=utf-8
