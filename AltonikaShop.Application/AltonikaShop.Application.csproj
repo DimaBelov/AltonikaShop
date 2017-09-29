@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreLib.Data.Entity" Version="1.0.1.5" />
+    <PackageReference Include="CoreLib.Data.Entity" Version="1.0.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="1.1.1" />
   </ItemGroup>
