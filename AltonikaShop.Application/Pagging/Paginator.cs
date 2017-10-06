@@ -30,7 +30,7 @@ namespace AltonikaShop.Application.Pagging
                 list.GetRange(startIndex, list.Count - startIndex).ToList() : 
                 list.GetRange(startIndex, options.PageSize).ToList();
             
-            result.CanNext = startIndex + options.PageSize - 1 < list.Count - 1;
+            result.CanNext = startIndex + options.PageSize < list.Count;
             result.CanPrev = options.PageNumber > 1;
 
             var pagesCount = result.TotalCount % options.PageSize == 0

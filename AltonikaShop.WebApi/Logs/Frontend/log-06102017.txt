@@ -1,0 +1,122 @@
+06.10.2017 14:37:10
+/list
+Cannot read property 'message' of undefinedSafeSubscriber._error()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:85:48
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:197:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+notifyError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/OuterSubscriber.js:22:0
+
+06.10.2017 14:37:56
+/list
+Cannot read property 'message' of undefinedSafeSubscriber._error()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:85:48
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:197:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+notifyError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/OuterSubscriber.js:22:0
+
+06.10.2017 15:53:13
+/
+Uncaught (in promise): TypeError: Cannot read property 'innerHTML' of undefined
+TypeError: Cannot read property 'innerHTML' of undefined
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.showSpinner (http://localhost:4202/main.bundle.js:595:61)
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.refresh (http://localhost:4202/main.bundle.js:575:14)
+    at SafeSubscriber._next (http://localhost:4202/main.bundle.js:568:19)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.__tryOrSetError (http://localhost:4202/vendor.bundle.js:5901:16)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.next (http://localhost:4202/vendor.bundle.js:5841:27)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber._next (http://localhost:4202/vendor.bundle.js:5779:26)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber.next (http://localhost:4202/vendor.bundle.js:5743:18)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/BehaviorSubject.js.BehaviorSubject._subscribe (http://localhost:4202/vendor.bundle.js:4856:24)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Observable.js.Observable._trySubscribe (http://localhost:4202/vendor.bundle.js:5232:25)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Subject.js.Subject._trySubscribe (http://localhost:4202/vendor.bundle.js:5529:51)showSpinner()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:91:57
+refresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:65:9
+SafeSubscriber._next()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:57:13
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+06.10.2017 15:54:35
+/
+Uncaught (in promise): TypeError: Cannot read property 'innerHTML' of undefined
+TypeError: Cannot read property 'innerHTML' of undefined
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.showSpinner (http://localhost:4202/main.bundle.js:595:50)
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.refresh (http://localhost:4202/main.bundle.js:575:14)
+    at SafeSubscriber._next (http://localhost:4202/main.bundle.js:568:19)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.__tryOrSetError (http://localhost:4202/vendor.bundle.js:5901:16)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.next (http://localhost:4202/vendor.bundle.js:5841:27)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber._next (http://localhost:4202/vendor.bundle.js:5779:26)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber.next (http://localhost:4202/vendor.bundle.js:5743:18)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/BehaviorSubject.js.BehaviorSubject._subscribe (http://localhost:4202/vendor.bundle.js:4856:24)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Observable.js.Observable._trySubscribe (http://localhost:4202/vendor.bundle.js:5232:25)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Subject.js.Subject._trySubscribe (http://localhost:4202/vendor.bundle.js:5529:51)showSpinner()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:91:46
+refresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:65:9
+SafeSubscriber._next()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:57:13
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+06.10.2017 15:55:52
+/
+Uncaught (in promise): TypeError: Cannot read property 'innerHTML' of undefined
+TypeError: Cannot read property 'innerHTML' of undefined
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.showSpinner (http://localhost:4202/main.bundle.js:597:50)
+    at ListComponent.webpackJsonp.../../../../../src/app/list/list.component.ts.ListComponent.refresh (http://localhost:4202/main.bundle.js:575:14)
+    at SafeSubscriber._next (http://localhost:4202/main.bundle.js:568:19)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.__tryOrSetError (http://localhost:4202/vendor.bundle.js:5901:16)
+    at SafeSubscriber.webpackJsonp.../../../../rxjs/Subscriber.js.SafeSubscriber.next (http://localhost:4202/vendor.bundle.js:5841:27)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber._next (http://localhost:4202/vendor.bundle.js:5779:26)
+    at Subscriber.webpackJsonp.../../../../rxjs/Subscriber.js.Subscriber.next (http://localhost:4202/vendor.bundle.js:5743:18)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/BehaviorSubject.js.BehaviorSubject._subscribe (http://localhost:4202/vendor.bundle.js:4856:24)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Observable.js.Observable._trySubscribe (http://localhost:4202/vendor.bundle.js:5232:25)
+    at BehaviorSubject.webpackJsonp.../../../../rxjs/Subject.js.Subject._trySubscribe (http://localhost:4202/vendor.bundle.js:5529:51)showSpinner()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:94:46
+refresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:65:9
+SafeSubscriber._next()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:57:13
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+

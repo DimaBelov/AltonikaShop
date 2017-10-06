@@ -1,0 +1,39 @@
+02.10.2017 12:41:01
+/list
+_v.context.$implicit.name is not a functionObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:125:72
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+02.10.2017 12:41:10
+/list
+_v.context.$implicit.name is not a functionObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:125:72
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+02.10.2017 12:41:10
+/list
+_v.context.$implicit.name is not a functionObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:125:72
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+

@@ -18,7 +18,7 @@ namespace AltonikaShop.WebApi.Controllers
         [HttpPost]
         public IActionResult Auth([FromBody] User user)
         {
-            if(user == null)
+            if (user == null)
                 throw new ArgumentNullException(nameof(user));
 
             return Json(_userService.Auth(user));

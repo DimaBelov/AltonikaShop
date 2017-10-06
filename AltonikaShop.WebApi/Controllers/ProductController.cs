@@ -3,7 +3,6 @@ using System.Linq;
 using AltonikaShop.Application.Pagging;
 using AltonikaShop.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 
 namespace AltonikaShop.WebApi.Controllers
 {
@@ -16,12 +15,6 @@ namespace AltonikaShop.WebApi.Controllers
         {
             _productService = productService;
         }
-
-        //[HttpGet]
-        //public IActionResult GetAll()
-        //{
-        //    return Json(_productService.GetAll().ToList());
-        //}
 
         [HttpPost]
         public IActionResult GetAll([FromBody] PaggingOptions options)
