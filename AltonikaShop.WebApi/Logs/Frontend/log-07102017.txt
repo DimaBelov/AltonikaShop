@@ -1,0 +1,744 @@
+07.10.2017 3:09:58
+/list
+Cannot read property '_productService' of nullrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:16
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:10:40
+/list
+Cannot read property '_productService' of nullrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:16
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:10:40
+/list
+Cannot read property '_productService' of nullrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:16
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:11:05
+/list
+Cannot read property 'get' of undefinedrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:32
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:11:25
+/list
+Cannot read property '_productService' of nullrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:16
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:11:25
+/list
+Cannot read property '_productService' of nullrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:16
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:11:37
+/list
+Cannot read property 'get' of undefinedrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:32
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:11:37
+/list
+Cannot read property 'get' of undefinedrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:32
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:12:05
+/list
+Cannot read property 'get' of undefinedrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:32
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:12:05
+/list
+Cannot read property 'get' of undefinedrefresh()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:66:32
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:17:35
+ngOnInit()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:61:26
+__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:247:0
+this.__tryOrSetError()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:187:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+_super.prototype._subscribe.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/BehaviorSubject.js:28:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Observable.js:171:0
+_trySubscribe()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subject.js:97:0
+
+07.10.2017 3:12:49
+/list
+Cannot set property 'paggingResult' of nullrefreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:80:22
+SafeSubscriber.result.subscribe._this.isBusy [as _next]()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:31:35
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:185:0
+_next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:125:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+this.project.call()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/operator/map.js:83:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+this.destination.error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/operator/filter.js:87:0
+next()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:89:0
+
+07.10.2017 4:06:35
+/
+Uncaught (in promise): TypeError: Cannot read property 'call' of undefined
+TypeError: Cannot read property 'call' of undefined
+    at new WaitSpinnerDirective (http://localhost:4202/main.bundle.js:1253:19)
+    at createClass (http://localhost:4202/vendor.bundle.js:78333:26)
+    at createDirectiveInstance (http://localhost:4202/vendor.bundle.js:78164:37)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79605:49)
+    at callViewAction (http://localhost:4202/vendor.bundle.js:80051:13)
+    at execComponentViewsAction (http://localhost:4202/vendor.bundle.js:79960:13)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79632:5)
+    at createRootView (http://localhost:4202/vendor.bundle.js:79500:5)
+    at callWithDebugContext (http://localhost:4202/vendor.bundle.js:80883:42)
+    at Object.debugCreateRootView [as createRootView] (http://localhost:4202/vendor.bundle.js:80200:12)constructor()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:44:18
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10925:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12643:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12224:0
+createRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12092:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12792:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 4:07:21
+/
+Uncaught (in promise): TypeError: Cannot read property 'call' of undefined
+TypeError: Cannot read property 'call' of undefined
+    at new WaitSpinnerDirective (http://localhost:4202/main.bundle.js:1253:19)
+    at createClass (http://localhost:4202/vendor.bundle.js:78333:26)
+    at createDirectiveInstance (http://localhost:4202/vendor.bundle.js:78164:37)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79605:49)
+    at callViewAction (http://localhost:4202/vendor.bundle.js:80051:13)
+    at execComponentViewsAction (http://localhost:4202/vendor.bundle.js:79960:13)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79632:5)
+    at createRootView (http://localhost:4202/vendor.bundle.js:79500:5)
+    at callWithDebugContext (http://localhost:4202/vendor.bundle.js:80883:42)
+    at Object.debugCreateRootView [as createRootView] (http://localhost:4202/vendor.bundle.js:80200:12)constructor()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:44:18
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10925:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12643:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12224:0
+createRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12092:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12792:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 4:08:34
+/
+Uncaught (in promise): TypeError: Cannot read property 'call' of undefined
+TypeError: Cannot read property 'call' of undefined
+    at new WaitSpinnerDirective (http://localhost:4202/main.bundle.js:1260:19)
+    at createClass (http://localhost:4202/vendor.bundle.js:78333:26)
+    at createDirectiveInstance (http://localhost:4202/vendor.bundle.js:78164:37)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79605:49)
+    at callViewAction (http://localhost:4202/vendor.bundle.js:80051:13)
+    at execComponentViewsAction (http://localhost:4202/vendor.bundle.js:79960:13)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79632:5)
+    at createRootView (http://localhost:4202/vendor.bundle.js:79500:5)
+    at callWithDebugContext (http://localhost:4202/vendor.bundle.js:80883:42)
+    at Object.debugCreateRootView [as createRootView] (http://localhost:4202/vendor.bundle.js:80200:12)constructor()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:44:18
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10925:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12643:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12224:0
+createRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12092:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12792:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 4:08:59
+/
+Uncaught (in promise): TypeError: Cannot read property 'call' of undefined
+TypeError: Cannot read property 'call' of undefined
+    at new WaitSpinnerDirective (http://localhost:4202/main.bundle.js:1260:19)
+    at createClass (http://localhost:4202/vendor.bundle.js:78333:26)
+    at createDirectiveInstance (http://localhost:4202/vendor.bundle.js:78164:37)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79605:49)
+    at callViewAction (http://localhost:4202/vendor.bundle.js:80051:13)
+    at execComponentViewsAction (http://localhost:4202/vendor.bundle.js:79960:13)
+    at createViewNodes (http://localhost:4202/vendor.bundle.js:79632:5)
+    at createRootView (http://localhost:4202/vendor.bundle.js:79500:5)
+    at callWithDebugContext (http://localhost:4202/vendor.bundle.js:80883:42)
+    at Object.debugCreateRootView [as createRootView] (http://localhost:4202/vendor.bundle.js:80200:12)constructor()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:44:18
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10925:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12643:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12224:0
+createRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12092:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateRootView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12792:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 4:38:06
+/list
+Cannot set property 'value' of undefinedngOnInit()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:58:51
+directive.ngOnChanges()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10848:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:20:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 4:38:37
+/list
+Cannot set property 'value' of undefinedngOnInit()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:58:51
+directive.ngOnChanges()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10848:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:20:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 4:38:37
+/list
+Cannot set property 'value' of undefinedngOnInit()@webpack:///C:/GitHub/altonika-shop/src/lib/wait-spinner.ts:58:51
+directive.ngOnChanges()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10848:0
+checkAndUpdateNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12349:0
+checkAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12288:0
+debugCheckAndUpdateNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13149:21
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13090:0
+Object.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:20:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 4:45:59
+/list
+Cannot read property 'isBusy' of undefinedObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:662:33
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 4:46:30
+/list
+Cannot read property 'isBusy' of undefinedObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:662:33
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 4:46:30
+/list
+Cannot read property 'isBusy' of undefinedObject.eval [as updateDirectives]()@ng:///AppModule/ListComponent.ngfactory.js:662:33
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12255:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 5:02:33
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:02:33
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:02:53
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:02:53
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:05:06
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:05:06
+/list
+ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value: 'false'. Current value: 'true'.viewDebugError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8426:21
+expressionChangedAfterItHasBeenCheckedError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8404:0
+devModeEqual()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8568:0
+checkNoChangesNodeInline()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12440:0
+checkNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12414:0
+debugCheckNoChangesNode()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13191:0
+debugCheckDirectivesFn()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13093:0
+Object.eval [as updateDirectives]()@ng:///AppModule/AppComponent.ngfactory.js:289:5
+debugUpdateDirectives()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13075:0
+checkNoChangesView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12234:0
+
+07.10.2017 5:54:08
+/
+Uncaught (in promise): Error: No provider for Logger!
+Error: No provider for Logger!
+    at injectionError (http://localhost:4202/vendor.bundle.js:68577:90)
+    at noProviderError (http://localhost:4202/vendor.bundle.js:68615:12)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull (http://localhost:4202/vendor.bundle.js:70057:19)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault (http://localhost:4202/vendor.bundle.js:70096:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKey (http://localhost:4202/vendor.bundle.js:70028:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_.get (http://localhost:4202/vendor.bundle.js:69897:21)
+    at resolveNgModuleDep (http://localhost:4202/vendor.bundle.js:76889:25)
+    at NgModuleRef_.webpackJsonp.../../../core/@angular/core.es5.js.NgModuleRef_.get (http://localhost:4202/vendor.bundle.js:77977:16)
+    at resolveDep (http://localhost:4202/vendor.bundle.js:78480:45)
+    at createClass (http://localhost:4202/vendor.bundle.js:78344:32)injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1169:21
+injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1207:0
+_throwOrNull()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2649:0
+inj_._getObjByKeyId()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2688:0
+_getByKey()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2620:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2489:0
+data._parent.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9481:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10569:0
+startView.root.injector.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:11072:0
+Array()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10936:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 5:54:41
+/
+Uncaught (in promise): Error: No provider for Logger!
+Error: No provider for Logger!
+    at injectionError (http://localhost:4202/vendor.bundle.js:68577:90)
+    at noProviderError (http://localhost:4202/vendor.bundle.js:68615:12)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull (http://localhost:4202/vendor.bundle.js:70057:19)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault (http://localhost:4202/vendor.bundle.js:70096:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKey (http://localhost:4202/vendor.bundle.js:70028:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_.get (http://localhost:4202/vendor.bundle.js:69897:21)
+    at resolveNgModuleDep (http://localhost:4202/vendor.bundle.js:76889:25)
+    at NgModuleRef_.webpackJsonp.../../../core/@angular/core.es5.js.NgModuleRef_.get (http://localhost:4202/vendor.bundle.js:77977:16)
+    at resolveDep (http://localhost:4202/vendor.bundle.js:78480:45)
+    at createClass (http://localhost:4202/vendor.bundle.js:78344:32)injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1169:21
+injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1207:0
+_throwOrNull()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2649:0
+inj_._getObjByKeyId()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2688:0
+_getByKey()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2620:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2489:0
+data._parent.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9481:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10569:0
+startView.root.injector.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:11072:0
+Array()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10936:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 5:55:02
+/
+Uncaught (in promise): Error: No provider for Logger!
+Error: No provider for Logger!
+    at injectionError (http://localhost:4202/vendor.bundle.js:68577:90)
+    at noProviderError (http://localhost:4202/vendor.bundle.js:68615:12)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull (http://localhost:4202/vendor.bundle.js:70057:19)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault (http://localhost:4202/vendor.bundle.js:70096:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKey (http://localhost:4202/vendor.bundle.js:70028:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_.get (http://localhost:4202/vendor.bundle.js:69897:21)
+    at resolveNgModuleDep (http://localhost:4202/vendor.bundle.js:76889:25)
+    at NgModuleRef_.webpackJsonp.../../../core/@angular/core.es5.js.NgModuleRef_.get (http://localhost:4202/vendor.bundle.js:77977:16)
+    at resolveDep (http://localhost:4202/vendor.bundle.js:78480:45)
+    at createClass (http://localhost:4202/vendor.bundle.js:78344:32)injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1169:21
+injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1207:0
+_throwOrNull()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2649:0
+inj_._getObjByKeyId()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2688:0
+_getByKey()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2620:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2489:0
+data._parent.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9481:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10569:0
+startView.root.injector.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:11072:0
+Array()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10936:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 5:56:02
+/
+Uncaught (in promise): Error: No provider for Logger!
+Error: No provider for Logger!
+    at injectionError (http://localhost:4202/vendor.bundle.js:68577:90)
+    at noProviderError (http://localhost:4202/vendor.bundle.js:68615:12)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._throwOrNull (http://localhost:4202/vendor.bundle.js:70057:19)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKeyDefault (http://localhost:4202/vendor.bundle.js:70096:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_._getByKey (http://localhost:4202/vendor.bundle.js:70028:25)
+    at ReflectiveInjector_.webpackJsonp.../../../core/@angular/core.es5.js.ReflectiveInjector_.get (http://localhost:4202/vendor.bundle.js:69897:21)
+    at resolveNgModuleDep (http://localhost:4202/vendor.bundle.js:76889:25)
+    at NgModuleRef_.webpackJsonp.../../../core/@angular/core.es5.js.NgModuleRef_.get (http://localhost:4202/vendor.bundle.js:77977:16)
+    at resolveDep (http://localhost:4202/vendor.bundle.js:78480:45)
+    at createClass (http://localhost:4202/vendor.bundle.js:78344:32)injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1169:21
+injectionError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:1207:0
+_throwOrNull()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2649:0
+inj_._getObjByKeyId()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2688:0
+_getByKey()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2620:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:2489:0
+data._parent.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9481:0
+get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10569:0
+startView.root.injector.get()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:11072:0
+Array()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10936:0
+scheduleResolveOrReject()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:795:0
+value.hasOwnProperty()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:766:0
+zone.scheduleMicroTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:844:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+onInvokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:3881:0
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:424:0
+task._transitionTo()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:192:0
+drainMicroTaskQueue()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:602:0
+
+07.10.2017 5:56:35
+/list
+Cannot read property 'url' of undefinederror()@webpack:///C:/GitHub/altonika-shop/src/services/logger.ts:16:35
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:83:19
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:44:19
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:47:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:30
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:197:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:102:0
+_error()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:128:0
+
+07.10.2017 8:39:49
+/list?search=%D1%8D%D0%BAr
+The "mat-" prefix cannot be used in ng-material v1 compatibility mode. It was used on an "mat-form-field" element.getMdCompatibilityInvalidPrefixError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:49:0
+MatPrefixRejector()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:70:0
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10928:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12080:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12821:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10271:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10048:25
+
+07.10.2017 9:06:33
+/list?search=%D1%8D%D0%BAr
+The "mat-" prefix cannot be used in ng-material v1 compatibility mode. It was used on an "mat-list" element.getMdCompatibilityInvalidPrefixError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:49:0
+MatPrefixRejector()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:70:0
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10928:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12080:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12821:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10271:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10048:25
+
+07.10.2017 9:06:33
+/list?search=%D1%8D%D0%BAr
+The "mat-" prefix cannot be used in ng-material v1 compatibility mode. It was used on an "mat-list" element.getMdCompatibilityInvalidPrefixError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:49:0
+MatPrefixRejector()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:70:0
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10928:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12080:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12821:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10271:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10048:25
+
+07.10.2017 11:55:33
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:34:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:77
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 11:59:25
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:34:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:77
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 11:59:30
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:34:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:76
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 11:59:50
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:34:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:76
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 12:00:09
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:34:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:76
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 12:01:16
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:40:19
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:76
+refreshComplete()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:82:26
+{anonymous}()@webpack:///C:/GitHub/altonika-shop/src/app/list/list.component.ts:36:19
+pageComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:33:31
+onPaggingComplete()@webpack:///C:/GitHub/altonika-shop/src/services/paginator.ts:23:27
+handle()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:48:23
+execute()@webpack:///C:/GitHub/altonika-shop/src/lib/async-command.ts:27:29
+__tryOrUnsub()@webpack:///C:/GitHub/altonika-shop/node_modules/rxjs/Subscriber.js:238:0
+
+07.10.2017 12:01:38
+/list
+Cannot read property 'forEach' of nullcontains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:40:19
+this.contains()@webpack:///C:/GitHub/altonika-shop/src/services/favorites.service.ts:21:17
+Object.eval [as handleEvent]()@ng:///AppModule/ListComponent.ngfactory.js:28:143
+handleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12014:85
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugHandleEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13063:0
+dispatchEvent()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:8607:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:9218:0
+function()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/platform-browser/@angular/platform-browser.es5.js:2651:25
+invokeTask()@webpack:///C:/GitHub/altonika-shop/node_modules/zone.js/dist/zone.js:425:0
+
+07.10.2017 15:06:22
+/personal
+The "mat-" prefix cannot be used in ng-material v1 compatibility mode. It was used on an "mat-chip" element.getMdCompatibilityInvalidPrefixError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:49:0
+MatPrefixRejector()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:70:0
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10928:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12080:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12821:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10271:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10048:25
+
+07.10.2017 15:06:22
+/personal
+The "mat-" prefix cannot be used in ng-material v1 compatibility mode. It was used on an "mat-chip" element.getMdCompatibilityInvalidPrefixError()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:49:0
+MatPrefixRejector()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/material/@angular/material.es5.js:70:0
+createClass()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10928:0
+createDirectiveInstance()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10756:21
+createViewNodes()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12197:33
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12080:0
+callWithDebugContext()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13475:25
+debugCreateEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12821:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10271:0
+createEmbeddedView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:10048:25
+
+07.10.2017 15:12:46
+/personal
+Cannot read property 'length' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/PersonalComponent.ngfactory.js:381:33
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+
+07.10.2017 15:12:46
+/personal
+Cannot read property 'length' of undefinedObject.eval [as updateRenderer]()@ng:///AppModule/PersonalComponent.ngfactory.js:381:33
+debugUpdateRenderer()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:13113:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12260:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+execComponentViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12552:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12261:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+asElementData()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12578:0
+checkAndUpdateView()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12256:0
+execProjectedViewsAction()@webpack:///C:/GitHub/altonika-shop/node_modules/@angular/core/@angular/core.es5.js:12620:0
+

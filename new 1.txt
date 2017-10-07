@@ -1,0 +1,12 @@
+Uncaught Error: Template parse errors:
+Binding to event property 'onmouseenter' is disallowed for security reasons, please use (mouseenter)=...
+If 'onmouseenter' is a directive input, make sure the directive is imported by the current module. ("ss]="product.isFavorite ? 'fav-yes' : 'fav-no'"
+            id="favBtn{{product.id}}"
+            [ERROR ->]onmouseenter="if ($(favBtn).hasClass('fav-no')) { $('#' + favBtn.id + 'Icon').remove(); $(favBtn).app"): ng:///AppModule/ListComponent.html@44:12
+			
+			
+			
+			if($(this).hasClass('fav-no')) {$('#' + this.id + 'Icon').html('star'); $(this).addClass('fav-yes');$(this).removeClass('fav-no');}else {$('#' + this.id + 'Icon').html('star_half'); $(this).addClass('fav-no');$(this).removeClass('fav-yes');}
+			
+			
+			if ($(this).hasClass('fav-yes')) {$('#' + this.id + 'Icon').html('star_border'); $(this).removeClass('fav-yes'); $(this).addClass('fav-no');} else { $('#' + this.id + 'Icon').html('star'); $(this).removeClass('fav-no');$(this).addClass('fav-yes');}

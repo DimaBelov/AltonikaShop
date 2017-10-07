@@ -5,8 +5,10 @@ namespace AltonikaShop.Application.Pagging
     public class PaggingResult<T>
     {
         public List<T> Items { get; set; }
+        
+        public int Current { get; set; }
 
-        public int TotalCount { get; set; }
+        public int Total { get; set; }
 
         public bool CanNext { get; set; }
 

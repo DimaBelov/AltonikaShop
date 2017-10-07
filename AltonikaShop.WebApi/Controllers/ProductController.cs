@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using AltonikaShop.Application.Pagging;
 using AltonikaShop.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,10 @@ namespace AltonikaShop.WebApi.Controllers
         [HttpPost]
         public IActionResult GetAll([FromBody] PaggingOptions options)
         {
+#if DEBUG
+            //Thread.Sleep(5000);
+            //throw new Exception("Test exception");
+#endif
             return Json(Paginator.Page(_productService.GetAll().ToList(), options));
         }
 
