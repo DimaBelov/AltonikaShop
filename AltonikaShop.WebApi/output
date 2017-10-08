@@ -1,0 +1,65 @@
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:11.69
+Executed DbCommand (89ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Executed DbCommand (1,141ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" varchar(150) NOT NULL,
+    "ProductVersion" varchar(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Applying migration '20171008092849_InitialCreate'.
+Executed DbCommand (185ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Orders" (
+    "Id" serial NOT NULL,
+    "CreateDate" timestamp,
+    "UserId" int4,
+    CONSTRAINT "PK_Orders" PRIMARY KEY ("Id")
+);
+Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Products" (
+    "Id" serial NOT NULL,
+    "Code" text,
+    "Description" text,
+    "ImageSource" text,
+    "IsDeleted" bool NOT NULL,
+    "Name" text,
+    "Price" numeric,
+    CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+);
+Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" serial NOT NULL,
+    "Login" text,
+    "Name" text,
+    "Password" text,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+Executed DbCommand (129ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "OrderDetails" (
+    "Id" serial NOT NULL,
+    "OrderId" int4,
+    "ProductId" int4,
+    "Quantity" int4 NOT NULL,
+    CONSTRAINT "PK_OrderDetails" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_OrderDetails_Orders_OrderId" FOREIGN KEY ("OrderId") REFERENCES "Orders" ("Id") ON DELETE NO ACTION,
+    CONSTRAINT "FK_OrderDetails_Products_ProductId" FOREIGN KEY ("ProductId") REFERENCES "Products" ("Id") ON DELETE NO ACTION
+);
+Executed DbCommand (56ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX "IX_OrderDetails_OrderId" ON "OrderDetails" ("OrderId");
+Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX "IX_OrderDetails_ProductId" ON "OrderDetails" ("ProductId");
+Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20171008092849_InitialCreate', '1.1.2');
+Done.

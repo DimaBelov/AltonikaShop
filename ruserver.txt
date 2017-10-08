@@ -1,36 +1,30 @@
 ssh 185.26.114.186 -l u2944939
 
 rm -rf webapi
+scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/* u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi
 
-scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi
+pscp -r C:/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/* u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi
 
 rm -rf frontend
+scp -r /mnt/c/GitHub/altonika-shop/dist/* u2944939@185.26.114.186:/home/u2944939/altonika-shop/frontend
 
-scp -r /mnt/c/GitHub/altonika-shop/dist u2944939@185.26.114.186:/home/u2944939/altonika-shop/frontend
+pscp -r C:/Git/GitHub/altonika-shop/dist/* u2944939@185.26.114.186:/home/u2944939/altonika-shop/frontend
 
 cd /etc/nginx/sites-available
 sudo nano default
-
-cd /home/u2944939/altonika-shop/frontend
-
 sudo service nginx restart
 
 netstat -ntlp | grep LISTEN
 
-nohup dotnet AltonikaShop.WebApi.dll &
-
-sudo -i -u altonika psql
-
 cd /etc/postgresql/9.5/main
-
 sudo nano /etc/postgresql/9.5/main/postgresql.conf
 sudo nano /etc/postgresql/9.5/main/pg_hba.conf
-
 sudo service postgresql restart
 
-sudo apt-get install iptables-persistent
-sudo invoke-rc.d iptables-persistent save
+echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd
 
-psql 185.26.114.186 -U altonika
+pscp -r 'C:/test/.' u2944939@185.26.114.186:/home/u2944939/test
 
-lsof -i :9092
+(echo mkdir altonika-shop/test && echo cd altonika-shop/test && echo put -r C:/test/.)>batch.script
+psftp u2944939@185.26.114.186 -b batch.script -be
+del batch.script
