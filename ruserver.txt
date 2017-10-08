@@ -23,8 +23,8 @@ sudo service postgresql restart
 
 echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd
 
-pscp -r 'C:/test/.' u2944939@185.26.114.186:/home/u2944939/test
+pscp -r C:/test/* u2944939@185.26.114.186:/home/u2944939/test
 
-(echo mkdir altonika-shop/test && echo cd altonika-shop/test && echo put -r C:/test/.)>batch.script
+(echo mkdir altonika-shop/test && echo cd altonika-shop/test && echo put -r C:/test/.)>remote-script
 psftp u2944939@185.26.114.186 -b batch.script -be
-del batch.script
+del remote-script
