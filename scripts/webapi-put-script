@@ -1,0 +1,2 @@
+cd altonika-shop/webapi
+put -r C:/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/.

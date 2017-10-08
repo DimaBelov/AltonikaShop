@@ -26,5 +26,17 @@ echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd
 pscp -r C:/test/* u2944939@185.26.114.186:/home/u2944939/test
 
 (echo mkdir altonika-shop/test && echo cd altonika-shop/test && echo put -r C:/test/.)>remote-script
-psftp u2944939@185.26.114.186 -b batch.script -be
+psftp u2944939@185.26.114.186 -b remote-script -be
+del remote-script
+
+
+lsof -i :9092 | grep LISTEN > net.info && awk '{pid=$2; print pid}' net.info
+---
+
+(echo mkdir altonika-shop/frontend && echo cd altonika-shop/frontend && echo put -r C:/Git/GitHub/altonika-shop/dist/.)>remote-script
+psftp u2944939@185.26.114.186 -b remote-script -be
+del remote-script
+
+(echo mkdir altonika-shop/webapi && echo cd altonika-shop/webapi && echo put -r C:/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/.)>remote-script
+psftp u2944939@185.26.114.186 -b remote-script -be
 del remote-script

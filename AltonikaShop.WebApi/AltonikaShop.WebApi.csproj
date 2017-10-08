@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\CustomProfile.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
@@ -22,5 +26,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AltonikaShop.Application\AltonikaShop.Application.csproj" />
   </ItemGroup>
+
+  <Target Name="PostPublish" AfterTargets="Publish">
+    <Exec Command="..\scripts\push-webapi.cmd" />
+  </Target>
 
 </Project>

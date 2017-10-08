@@ -1,0 +1,3 @@
+cd altonika-shop/webapi ;
+nohup dotnet AltonikaShop.WebApi.dll & ;
+/bin/bash -c 'exit'
