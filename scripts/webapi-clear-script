@@ -3,7 +3,4 @@ echo "$WEBAPIPID" ;
 kill "$WEBAPIPID" ;
 
 mkdir -p altonika-shop/webapi ;
-cd altonika-shop/webapi ;
-rm -r ./* ;
-
-/bin/bash -c 'exit'
+rm -r altonika-shop/webapi/* ;

@@ -1,1 +1,0 @@
-psftp u2944939@185.26.114.186 -b frontend-remote-script -be
