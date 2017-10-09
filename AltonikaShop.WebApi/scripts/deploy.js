@@ -11,22 +11,23 @@ exec = function() {
     var and = " && ";
     var sshConnect = "ssh 185.26.114.186 -l u2944939";
     var deleteScript =
-        `echo Stop service and delete files && ${sshConnect} 'sh altonika-shop/scripts/webapi-clear.sh && exit'`;
+        `echo Stop service and delete files && ${sshConnect} 'sh altonika-shop/scripts/webapi-clear.sh'`;
     var pushScript =
-        "echo Push new files && scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
+        "echo Push new files && scp -r C:/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
     var runScript =
-        `echo Run service && ${sshConnect} 'sh altonika-shop/scripts/webapi-run.sh && exit'`;
+        `echo Run service && ${sshConnect} 'sh altonika-shop/scripts/webapi-run.sh'`;
 
-    var sshScript = `${deleteScript}${and}${pushScript}${and}${runScript}`;
-    var bashScript = `bash -c "${sshScript}"`;
+    var getSshScript = () => `${deleteScript}${and}${pushScript}${and}${runScript}`;
+    var getBashScript = () => `bash -c "${getSshScript()}"`;
 
     fileExists('C:/Windows/System32/bash.exe').then(exists => {
         if (exists) {
+            pushScript = "echo Push new files && scp -r /mnt/c/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
             console.log('Run bash script');
-            execScript(bashScript);
+            execScript(getBashScript());
         } else {
             console.log('Run OpenSSh script');
-            execScript(sshScript);
+            execScript(getSshScript());
         }
     });
 }
