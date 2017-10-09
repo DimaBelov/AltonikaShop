@@ -1,8 +1,19 @@
 ﻿var spawn = require('child_process').spawn;
 var fileExists = require('file-exists');
 
-var bashScript = 'bash -c "ssh 185.26.114.186 -l u2944939 \'echo Stop service and delete files && sh altonika-shop/scripts/webapi-clear.sh && exit\' && echo Push new files && scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi && ssh 185.26.114.186 -l u2944939 \'echo Run service && sh altonika-shop/scripts/webapi-run.sh && exit\'"';
-var openSshScript = "ssh 185.26.114.186 -l u2944939 'echo Stop service and delete files && sh altonika-shop/scripts/webapi-clear.sh && exit' && echo Push new files && scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi && ssh 185.26.114.186 -l u2944939 'echo Run service && sh altonika-shop/scripts/webapi-run.sh && exit'";
+var and = " && ";
+var sshConnect = "ssh 185.26.114.186 -l u2944939";
+var deleteScript =
+    `${sshConnect} 'echo Stop service and delete files && sh altonika-shop/scripts/webapi-clear.sh && exit'`;
+var pushScript =
+    "echo Push new files && scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
+var runScript =
+    `${sshConnect} 'echo Run service && sh altonika-shop/scripts/webapi-run.sh && exit'`;
+
+var sshScript = `${deleteScript}${and}${pushScript}${and}${runScript}`;
+var bashScript = `bash -c "${sshScript}"`;
+
+console.log(bashScript);
 
 fileExists('C:/Windows/System32/bash.exe').then(exists => {
     if (exists) {
@@ -10,7 +21,7 @@ fileExists('C:/Windows/System32/bash.exe').then(exists => {
         runBashScript();
     } else {
         console.log('Run OpenSSh script');
-        runOpenSshScript();
+        runSshScript();
     }
 });
 
@@ -23,10 +34,10 @@ runBashScript = function () {
             });
 }
 
-runOpenSshScript = function () {
+runSshScript = function () {
     var child =
         spawn(
-            openSshScript, {
+            sshScript, {
                 windowsVerbatimArguments: true,
                 shell: true,
                 stdio: 'inherit'
