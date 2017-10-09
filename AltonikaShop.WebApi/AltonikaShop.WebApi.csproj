@@ -27,8 +27,4 @@
     <ProjectReference Include="..\AltonikaShop.Application\AltonikaShop.Application.csproj" />
   </ItemGroup>
 
-  <Target Name="PostPublish" AfterTargets="Publish">
-    <Exec Command="..\scripts\push-webapi.cmd" />
-  </Target>
-
 </Project>
