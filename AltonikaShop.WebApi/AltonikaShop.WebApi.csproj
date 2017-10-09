@@ -27,4 +27,8 @@
     <ProjectReference Include="..\AltonikaShop.Application\AltonikaShop.Application.csproj" />
   </ItemGroup>
 
+  <Target Name="PostPublish" AfterTargets="Publish">
+    <Exec Command="npm run deploy" />
+  </Target>
+
 </Project>

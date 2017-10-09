@@ -1,0 +1,19 @@
+{
+  "name": "altonikashop.webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "file-exists": "^5.0.0",
+    "node.os": "^1.2.4",
+    "os": "^0.1.1",
+    "prompt": "^1.0.0"
+  }
+}
