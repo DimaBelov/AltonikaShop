@@ -1,2 +1,1 @@
-cd altonika-shop/webapi ;
-nohup dotnet AltonikaShop.WebApi.dll ;
+nohup dotnet altonika-shop/webapi/AltonikaShop.WebApi.dll & ;
