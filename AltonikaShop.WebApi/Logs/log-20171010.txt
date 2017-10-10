@@ -1,0 +1,23 @@
+2017-10-10 14:47:10.724 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-10-10 14:47:17.703 [Information] Request finished in 7471.8065ms 404 
+2017-10-10 14:47:18.674 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-10-10 14:47:18.699 [Information] Request finished in 17.5725ms 404 
+2017-10-10 14:47:23.706 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-10-10 14:47:23.715 [Information] Request finished in 6.4359ms 404 
+2017-10-10 14:47:25.356 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-10-10 14:47:25.361 [Information] Request finished in 5.0325ms 404 
+2017-10-10 15:38:21.582 [Information] Product: 1 qwe
+2017-10-10 15:38:21.638 [Information] Product: 2 asd
+2017-10-10 15:38:21.638 [Information] Product: 3 zxc
+2017-10-10 15:44:32.243 [Information] Product: 1 qwe
+2017-10-10 15:44:32.297 [Information] Product: 2 asd
+2017-10-10 15:44:32.297 [Information] Product: 3 zxc
+2017-10-10 16:23:39.920 [Information] Product: 1 qwe
+2017-10-10 16:23:39.977 [Information] Product: 2 asd
+2017-10-10 16:23:39.977 [Information] Product: 3 zxc
+2017-10-10 16:33:19.013 [Information] Product: 1 qwe
+2017-10-10 16:33:19.066 [Information] Product: 2 asd
+2017-10-10 16:33:19.066 [Information] Product: 3 zxc
+2017-10-10 16:44:27.444 [Information] Product: 1 qwe
+2017-10-10 16:44:27.498 [Information] Product: 2 asd
+2017-10-10 16:44:27.498 [Information] Product: 3 zxc

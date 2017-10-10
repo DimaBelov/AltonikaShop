@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Serilog;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace AltonikaShop.WebApi
@@ -46,8 +47,7 @@ namespace AltonikaShop.WebApi
                 .AddExceptionFilter();
 
             var connection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME)
-                .Get<List<DataConnection>>()
-                .First();
+                .Get<List<DataConnection>>().First();
 
            //const string webapiAssemblyName = "AltonikaShop.WebApi";
 
@@ -65,6 +65,10 @@ namespace AltonikaShop.WebApi
                 .AddScoped<IOrderService, OrderService>();
 
             services.AddSwagger();
+
+#if DEBUG
+            Test(services);
+#endif
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
@@ -78,6 +82,21 @@ namespace AltonikaShop.WebApi
             app.UseSwaggerWithUi(serviceProvider.GetService<Info>())
                 .UseMetrics(configuration => configuration.MemStatInterval = TimeSpan.FromSeconds(5))
                 .UseMvc();
+        }
+
+        void Test(IServiceCollection services)
+        {
+            services
+                .AddScoped<IGenericRepository>(p => new GenericRepository(ConnectionManager.Get("Draft")))
+                .AddScoped<TestService>();
+            var provider = services.GetProvider();
+            var testService = provider.GetService<TestService>();
+            var logger = provider.GetService<ILogger<TestService>>();
+            var products = testService.ProductGetAll().ToList();
+            products.ForEach(p => logger.LogInformation($"Product: {p.Id} {p.Name}"));
+            testService.Update(new[] { new Product { Name = "tyuf" }, new Product { Name = "cbvngh" }, new Product { Name = "fhdfh" } });
+            products = testService.ProductGetAll().ToList();
+            products.ForEach(p => logger.LogInformation($"Product: {p.Id} {p.Name}"));
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using CoreLib.Entities;
+﻿using System.Collections.Generic;
+using CoreLib.Entities;
 
 namespace AltonikaShop.Domain.Entities
 {
@@ -13,5 +14,11 @@ namespace AltonikaShop.Domain.Entities
         public string ImageSource { get; set; }
 
         public bool IsDeleted { get; set; }
+
+        public static IList<string> Tvp = new List<string>
+        {
+            nameof(Id),
+            nameof(Name)
+        };
     }
 }

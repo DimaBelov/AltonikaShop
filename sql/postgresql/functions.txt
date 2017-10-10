@@ -45,3 +45,35 @@ $$ LANGUAGE plpgsql;
 ALTER FUNCTION product_add(name text, code text, description text, image_source text, price decimal) OWNER to dimabelov;
 
 SELECT * FROM product_add('ProductName1', 'ProductCode1', 'ProductDecription1', 'ProductImgSrc1', 100);
+
+
+CREATE TYPE product AS
+(
+	id int,
+	name text
+);
+
+CREATE OR REPLACE FUNCTION product_getall()
+RETURNS SETOF product
+AS $$
+	SELECT * FROM products;
+$$ LANGUAGE SQL;
+
+INSERT INTO products (name) VALUES ('qwe'), ('asd'), ('zxc');
+
+CREATE OR REPLACE FUNCTION product_update(updated anyarray)
+RETURNS SETOF product
+AS $$
+BEGIN
+	MERGE products ps
+	USING updated as up
+	ON up.id = ps.id
+	WHEN MATCHED
+		UPDATE
+			SET 
+				name = up.name
+	WHEN NOT MATCHED
+		INSERT (name) VALUES(up.name)
+	;
+END
+$$ LANGUAGE plpgsql;

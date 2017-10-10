@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -10,13 +9,13 @@ namespace AltonikaShop.WebApi.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Orders",
-                columns: table => new
+                "Orders",
+                table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<int>()
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    CreateDate = table.Column<DateTime>(nullable: true),
-                    UserId = table.Column<int>(nullable: true)
+                    CreateDate = table.Column<DateTime>(),
+                    UserId = table.Column<int>()
                 },
                 constraints: table =>
                 {
@@ -24,17 +23,17 @@ namespace AltonikaShop.WebApi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Products",
-                columns: table => new
+                "Products",
+                table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<int>()
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    Code = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
+                    Code = table.Column<string>(),
+                    Name = table.Column<string>(),
+                    Description = table.Column<string>(),
                     ImageSource = table.Column<string>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false),
-                    Name = table.Column<string>(nullable: true),
-                    Price = table.Column<decimal>(nullable: true)
+                    Price = table.Column<decimal>(nullable: true),
+                    IsDeleted = table.Column<bool>(defaultValue: false)
                 },
                 constraints: table =>
                 {
@@ -42,14 +41,14 @@ namespace AltonikaShop.WebApi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Users",
-                columns: table => new
+                "Users",
+                table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<int>()
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    Login = table.Column<string>(nullable: true),
-                    Name = table.Column<string>(nullable: true),
-                    Password = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(),
+                    Login = table.Column<string>(),
+                    Password = table.Column<string>()
                 },
                 constraints: table =>
                 {
@@ -57,56 +56,56 @@ namespace AltonikaShop.WebApi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "OrderDetails",
-                columns: table => new
+                "OrderDetails",
+                table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<int>()
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    OrderId = table.Column<int>(nullable: true),
-                    ProductId = table.Column<int>(nullable: true),
-                    Quantity = table.Column<int>(nullable: false)
+                    OrderId = table.Column<int>(),
+                    ProductId = table.Column<int>(),
+                    Quantity = table.Column<int>()
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_OrderDetails", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_OrderDetails_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "Id",
+                        "FK_OrderDetails_Orders_OrderId",
+                        x => x.OrderId,
+                        "Orders",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_OrderDetails_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "Id",
+                        "FK_OrderDetails_Products_ProductId",
+                        x => x.ProductId,
+                        "Products",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderDetails_OrderId",
-                table: "OrderDetails",
-                column: "OrderId");
+                "IX_OrderDetails_OrderId",
+                "OrderDetails",
+                "OrderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderDetails_ProductId",
-                table: "OrderDetails",
-                column: "ProductId");
+                "IX_OrderDetails_ProductId",
+                "OrderDetails",
+                "ProductId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "OrderDetails");
+                "OrderDetails");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                "Users");
 
             migrationBuilder.DropTable(
-                name: "Orders");
+                "Orders");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                "Products");
         }
     }
 }
