@@ -7,6 +7,15 @@ var fileExists = require('file-exists');
 //    exec(result.password);
 //});
 
+execScript = function (script) {
+    var child =
+        spawn(
+            script, {
+                shell: true,
+                stdio: 'inherit'
+            });
+}
+
 exec = function() {
     var and = " && ";
     var sshConnect = "ssh 185.26.114.186 -l u2944939";
@@ -22,7 +31,7 @@ exec = function() {
 
     fileExists('C:/Windows/System32/bash.exe').then(exists => {
         if (exists) {
-            pushScript = "echo Push new files && scp -r /mnt/c/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
+            pushScript = "echo Push new files && scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi";
             console.log('Run bash script');
             execScript(getBashScript());
         } else {
@@ -30,34 +39,4 @@ exec = function() {
             execScript(getSshScript());
         }
     });
-}
-
-execScript = function(script) {
-    var child =
-        spawn(
-            script, {
-                shell: true,
-                stdio: 'inherit'
-            });
-}
-
-exec();
-
-//runBashScript = function () {
-//    var child =
-//        spawn(
-//            bashScript, {
-//                shell: true,
-//                stdio: 'inherit'
-//            });
-//}
-
-//runSshScript = function () {
-//    var child =
-//        spawn(
-//            sshScript, {
-//                windowsVerbatimArguments: true,
-//                shell: true,
-//                stdio: 'inherit'
-//            });
-//}
+}();
