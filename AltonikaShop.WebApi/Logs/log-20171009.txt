@@ -1,0 +1,7 @@
+2017-10-09 22:52:33.579 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-10-09 22:52:33.832 [Information] Request finished in 322.8216ms 204 
+2017-10-09 22:52:33.917 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-10-09 22:52:37.972 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-10-09 22:52:41.722 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-10-09 22:52:41.834 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 7022.5842ms
+2017-10-09 22:52:41.845 [Information] Request finished in 7926.9176ms 200 application/json; charset=utf-8

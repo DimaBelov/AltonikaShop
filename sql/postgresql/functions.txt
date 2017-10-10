@@ -1,0 +1,47 @@
+CREATE TYPE product AS
+(
+	id int,
+	code text, 
+	name text, 
+	image_source text, 
+	description text, 
+	price decimal,
+	is_deleted boolean
+);
+
+CREATE TYPE product AS
+(
+	"Id" int,
+	"Name" text, 
+	"Code" text, 
+	"Description" text, 
+	"ImageSource" text, 
+	"Price" decimal,
+	"IsDeleted" boolean
+);
+
+CREATE OR REPLACE FUNCTION product_add(name text, code text, description text, image_source text, price decimal)
+RETURNS SETOF product
+AS $$
+DECLARE new_id int;
+	BEGIN
+		INSERT INTO public."Products" ("Name", "Code", "Description", "ImageSource", "Price")
+			VALUES (name, code, description, image_source, price) RETURNING "Id" INTO new_id;
+		
+		RETURN QUERY EXECUTE format('
+		SELECT %s
+		FROM  %s
+		WHERE  "Id" = $1', (
+			SELECT array_to_string(array_agg('"'||column_name::text||'"'||'::'||data_type::text), ',') FROM 
+			unnest(
+				(SELECT array_agg(column_name::text) FROM information_schema.columns WHERE table_name = 'Products')::text[],
+				(SELECT array_agg(data_type::text) FROM information_schema.columns WHERE table_name = 'Products')::text[]
+			)x(column_name, data_type)),
+		'public."Products"')
+		USING new_id;
+	END
+$$ LANGUAGE plpgsql;
+
+ALTER FUNCTION product_add(name text, code text, description text, image_source text, price decimal) OWNER to dimabelov;
+
+SELECT * FROM product_add('ProductName1', 'ProductCode1', 'ProductDecription1', 'ProductImgSrc1', 100);
