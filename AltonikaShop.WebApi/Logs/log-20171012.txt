@@ -1,0 +1,3 @@
+2017-10-12 15:37:21.101 [Information] Product: 1 qwe
+2017-10-12 15:37:21.150 [Information] Product: 2 asd
+2017-10-12 15:37:21.150 [Information] Product: 3 zxc

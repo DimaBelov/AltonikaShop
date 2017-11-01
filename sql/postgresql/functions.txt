@@ -65,15 +65,9 @@ CREATE OR REPLACE FUNCTION product_update(updated anyarray)
 RETURNS SETOF product
 AS $$
 BEGIN
-	MERGE products ps
-	USING updated as up
-	ON up.id = ps.id
-	WHEN MATCHED
-		UPDATE
-			SET 
-				name = up.name
-	WHEN NOT MATCHED
-		INSERT (name) VALUES(up.name)
-	;
+	INSERT INTO products (name)
+	SELECT name FROM updated
+	ON CONFLICT (id) DO UPDATE
+	SET name = excluded.name;
 END
 $$ LANGUAGE plpgsql;

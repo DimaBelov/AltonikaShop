@@ -1,5 +1,9 @@
 ssh 185.26.114.186 -l u2944939
 
+ssh -o StrictHostKeyChecking=no u2944939@185.26.114.186
+
+
+
 rm -rf webapi
 scp -r /mnt/c/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/. u2944939@185.26.114.186:/home/u2944939/altonika-shop/webapi
 
@@ -32,3 +36,6 @@ del remote-script
 (echo mkdir altonika-shop/webapi && echo cd altonika-shop/webapi && echo put -r C:/Git/GitHub/AltonikaShop/AltonikaShop.WebApi/bin/Release/PublishOutput/.)>remote-script
 psftp u2944939@185.26.114.186 -b remote-script -be
 del remote-script
+
+
+scp /mnt/c/bash.scripts/webapi-run.sh u2944939@185.26.114.186:/home/u2944939/altonika-shop/scripts

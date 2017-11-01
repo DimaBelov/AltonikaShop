@@ -67,7 +67,7 @@ namespace AltonikaShop.WebApi
             services.AddSwagger();
 
 #if DEBUG
-            Test(services);
+            //Test(services);
 #endif
         }
 
@@ -94,7 +94,7 @@ namespace AltonikaShop.WebApi
             var logger = provider.GetService<ILogger<TestService>>();
             var products = testService.ProductGetAll().ToList();
             products.ForEach(p => logger.LogInformation($"Product: {p.Id} {p.Name}"));
-            testService.Update(new[] { new Product { Name = "tyuf" }, new Product { Name = "cbvngh" }, new Product { Name = "fhdfh" } });
+            testService.Update(new[] { new Product { Name = "gfhdf" }, new Product { Name = "cbvngh" }, new Product { Name = "fhdfh" } });
             products = testService.ProductGetAll().ToList();
             products.ForEach(p => logger.LogInformation($"Product: {p.Id} {p.Name}"));
         }
