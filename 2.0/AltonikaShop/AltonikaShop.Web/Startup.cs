@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AltonikaShop.Application;
-using AltonikaShop.Application.Repositories;
-using AltonikaShop.Application.Repositories.Interfaces;
+using AltonikaShop.Data;
+using AltonikaShop.Data.Repositories;
+using AltonikaShop.Data.Repositories.Interfaces;
 using AltonikaShop.Domain.Entities;
 using CoreLib.Data;
 using CoreLib.Web.Extensions;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace AltonikaShop.WebApi
+namespace AltonikaShop.Web
 {
     public class Startup
     {
@@ -47,7 +47,7 @@ namespace AltonikaShop.WebApi
             var connection = Configuration.GetSection(DATA_CONNECTIONS_SECTION_MAME)
                 .Get<List<DataConnection>>().First();
 
-           //const string webapiAssemblyName = "AltonikaShop.WebApi";
+           //const string webapiAssemblyName = "AltonikaShop.Web";
 
             services
                 

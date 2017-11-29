@@ -1,9 +1,9 @@
 ﻿using System;
-using AltonikaShop.Application.Repositories.Interfaces;
+using AltonikaShop.Data.Repositories.Interfaces;
 using AltonikaShop.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AltonikaShop.WebApi.Controllers
+namespace AltonikaShop.Web.Controllers
 {
     [Route("api/v1/[controller]")]
     public class UserController : Controller

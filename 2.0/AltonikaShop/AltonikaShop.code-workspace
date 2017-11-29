@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "AltonikaShop.Web"
+		},
+		{
+			"path": "AltonikaShop.Data"
+		},
+		{
+			"path": "AltonikaShop.Domain"
+		}
+	],
+	"settings": {}
+}

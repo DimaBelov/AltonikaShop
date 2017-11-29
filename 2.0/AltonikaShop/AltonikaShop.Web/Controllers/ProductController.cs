@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using AltonikaShop.Application.Pagging;
-using AltonikaShop.Application.Repositories.Interfaces;
+using AltonikaShop.Data.Pagging;
+using AltonikaShop.Data.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AltonikaShop.WebApi.Controllers
+namespace AltonikaShop.Web.Controllers
 {
     [Route("api/v1/[controller]")]
     public class ProductController : Controller

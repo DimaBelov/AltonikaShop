@@ -1,0 +1,346 @@
+2017-11-01 11:59:36.450 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 11:59:36.672 [Information] Request finished in 257.2299ms 204 
+2017-11-01 11:59:36.736 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 11:59:40.871 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 11:59:42.390 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 11:59:42.455 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 3694.1427ms
+2017-11-01 11:59:42.461 [Information] Request finished in 5724.9575ms 200 application/json; charset=utf-8
+2017-11-01 12:01:49.028 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-11-01 12:01:49.031 [Information] Request finished in 2.4337ms 204 
+2017-11-01 12:01:49.034 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 955
+2017-11-01 12:01:49.084 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:01:49.457 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1[AltonikaShop.Domain.Entities.Order]".
+2017-11-01 12:01:49.576 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 540.3067ms
+2017-11-01 12:01:49.660 [Error] Connection id ""0HL910RBUECAR"": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'context' with type 'AltonikaShop.Application.AppDbContext'. Path 'context.changeTracker'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-11-01 12:01:49.697 [Information] Request finished in 662.9549ms 200 application/json; charset=utf-8
+2017-11-01 12:02:13.720 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:02:13.720 [Information] Request finished in 0.5484ms 204 
+2017-11-01 12:02:13.726 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:02:13.728 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:02:13.736 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:02:13.737 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 8.8554ms
+2017-11-01 12:02:13.739 [Information] Request finished in 13.0936ms 200 application/json; charset=utf-8
+2017-11-01 12:02:43.742 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/user  
+2017-11-01 12:02:43.743 [Information] Request finished in 0.6309ms 204 
+2017-11-01 12:02:43.749 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/user application/json 36
+2017-11-01 12:02:43.758 [Information] Executing action method "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.User"]) - ModelState is Valid
+2017-11-01 12:02:43.764 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.User".
+2017-11-01 12:02:43.765 [Information] Executed action "AltonikaShop.WebApi.Controllers.UserController.Auth (AltonikaShop.WebApi)" in 14.6318ms
+2017-11-01 12:02:43.765 [Information] Request finished in 16.7094ms 200 application/json; charset=utf-8
+2017-11-01 12:02:43.808 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:02:43.808 [Information] Request finished in 0.6671ms 204 
+2017-11-01 12:02:43.823 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:02:43.824 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:02:43.828 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:02:43.829 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.1762ms
+2017-11-01 12:02:43.829 [Information] Request finished in 7.8121ms 200 application/json; charset=utf-8
+2017-11-01 12:02:49.567 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-11-01 12:02:49.567 [Information] Request finished in 0.5207ms 204 
+2017-11-01 12:02:49.575 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 955
+2017-11-01 12:02:49.576 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:02:49.592 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1[AltonikaShop.Domain.Entities.Order]".
+2017-11-01 12:02:49.602 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 26.8527ms
+2017-11-01 12:02:49.632 [Error] Connection id ""0HL910RBUECAT"": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'context' with type 'AltonikaShop.Application.AppDbContext'. Path 'context.changeTracker'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-11-01 12:02:49.674 [Information] Request finished in 100.0052ms 200 application/json; charset=utf-8
+2017-11-01 12:03:42.610 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:03:42.610 [Information] Request finished in 0.6113ms 204 
+2017-11-01 12:03:42.617 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:03:42.621 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:03:42.627 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:03:42.627 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 8.8888ms
+2017-11-01 12:03:42.628 [Information] Request finished in 11.4738ms 200 application/json; charset=utf-8
+2017-11-01 12:09:30.423 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-11-01 12:09:30.423 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-11-01 12:09:34.097 [Information] Request finished in 3900.8087ms 204 
+2017-11-01 12:09:34.388 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-11-01 12:09:34.512 [Information] Request finished in 5331.0914ms 404 
+2017-11-01 12:09:34.535 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-11-01 12:09:34.546 [Information] Request finished in 8.8058ms 404 
+2017-11-01 12:09:41.127 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:09:42.716 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-11-01 12:09:42.765 [Information] Request finished in 31.9794ms 204 
+2017-11-01 12:09:42.803 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-11-01 12:09:42.815 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:09:44.909 [Error] Exception handeled by ExceptionFilter
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AltonikaShop.WebApi.Controllers.ProductController.GetAll(PaggingOptions options) in C:\GitHub\AltonikaShop\AltonikaShop.WebApi\Controllers\ProductController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+2017-11-01 12:09:46.736 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-11-01 12:09:46.839 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 12082.6165ms
+2017-11-01 12:09:46.862 [Information] Request finished in 12463.5156ms 400 application/json; charset=utf-8
+2017-11-01 12:09:47.283 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:09:47.327 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4514.802ms
+2017-11-01 12:09:47.335 [Information] Request finished in 4533.2411ms 200 application/json; charset=utf-8
+2017-11-01 12:10:12.470 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-11-01 12:10:12.477 [Information] Request finished in 5.7282ms 204 
+2017-11-01 12:10:12.487 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 955
+2017-11-01 12:10:12.535 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:10:15.141 [Information] Executing JsonResult, writing value "Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1[AltonikaShop.Domain.Entities.Order]".
+2017-11-01 12:10:15.552 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 3056.8736ms
+2017-11-01 12:10:15.833 [Error] Connection id ""0HL911108ORLJ"": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'context' with type 'AltonikaShop.Application.AppDbContext'. Path 'context.changeTracker'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CoreLib.Web.Middlewares.RequestMetricsMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-11-01 12:10:15.890 [Information] Request finished in 3405.0851ms 200 application/json; charset=utf-8
+2017-11-01 12:11:08.539 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-11-01 12:11:08.559 [Information] Request finished in 4.4859ms 204 
+2017-11-01 12:11:08.570 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 955
+2017-11-01 12:11:08.606 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:31:37.094 [Information] Request starting HTTP/1.1 GET http://localhost:53519/api/values  
+2017-11-01 12:31:37.950 [Information] Request finished in 872.0474ms 404 
+2017-11-01 12:31:38.049 [Information] Request starting HTTP/1.1 GET http://localhost:53519/favicon.ico  
+2017-11-01 12:31:38.062 [Information] Request finished in 10.385ms 404 
+2017-11-01 12:31:44.592 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-11-01 12:31:44.621 [Information] Request finished in 26.2601ms 204 
+2017-11-01 12:31:44.631 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-11-01 12:31:47.762 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:31:48.938 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:31:49.011 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4229.1014ms
+2017-11-01 12:31:49.031 [Information] Request finished in 4391.8593ms 200 application/json; charset=utf-8
+2017-11-01 12:31:52.185 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/order  
+2017-11-01 12:31:52.198 [Information] Request finished in 5.6032ms 204 
+2017-11-01 12:31:52.210 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/order application/json 955
+2017-11-01 12:31:52.262 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:32:00.828 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-11-01 12:32:00.844 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 8626.8822ms
+2017-11-01 12:32:00.853 [Information] Request finished in 8639.4609ms 200 application/json; charset=utf-8
+2017-11-01 12:32:05.139 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:53519/api/v1/product  
+2017-11-01 12:32:05.168 [Information] Request finished in 7.2815ms 204 
+2017-11-01 12:32:05.185 [Information] Request starting HTTP/1.1 POST http://localhost:53519/api/v1/product application/json 30
+2017-11-01 12:32:05.194 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:32:05.207 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:32:05.218 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 20.3783ms
+2017-11-01 12:32:05.229 [Information] Request finished in 44.4925ms 200 application/json; charset=utf-8
+2017-11-01 12:36:56.240 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:36:56.458 [Information] Request finished in 249.2062ms 204 
+2017-11-01 12:36:56.525 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:36:58.233 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:36:59.222 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:36:59.286 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 2380.6465ms
+2017-11-01 12:36:59.292 [Information] Request finished in 2767.5505ms 200 application/json; charset=utf-8
+2017-11-01 12:37:05.569 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/order  
+2017-11-01 12:37:05.569 [Information] Request finished in 0.5778ms 204 
+2017-11-01 12:37:05.576 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/order application/json 955
+2017-11-01 12:37:05.649 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Domain.Entities.Order"]) - ModelState is Valid
+2017-11-01 12:37:05.952 [Information] Executing JsonResult, writing value "AltonikaShop.Domain.Entities.Order".
+2017-11-01 12:37:05.961 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.Update (AltonikaShop.WebApi)" in 381.9071ms
+2017-11-01 12:37:05.962 [Information] Request finished in 385.9968ms 200 application/json; charset=utf-8
+2017-11-01 12:37:09.544 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-11-01 12:37:09.563 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-11-01 12:37:09.572 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-11-01 12:37:09.791 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 242.7823ms
+2017-11-01 12:37:09.792 [Information] Request finished in 248.2227ms 200 application/json; charset=utf-8
+2017-11-01 12:37:26.998 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:37:26.999 [Information] Request finished in 0.6202ms 204 
+2017-11-01 12:37:27.004 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:37:27.007 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:37:27.019 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:37:27.022 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 16.0379ms
+2017-11-01 12:37:27.027 [Information] Request finished in 21.6969ms 200 application/json; charset=utf-8
+2017-11-01 12:37:41.889 [Information] Request starting HTTP/1.1 GET http://localhost:9092/api/v1/order/user/1  
+2017-11-01 12:37:41.890 [Information] Executing action method "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" with arguments (["1"]) - ModelState is Valid
+2017-11-01 12:37:41.890 [Information] Executing JsonResult, writing value "System.Linq.Enumerable+WhereEnumerableIterator`1[AltonikaShop.Domain.Entities.Order]".
+2017-11-01 12:37:41.898 [Information] Executed action "AltonikaShop.WebApi.Controllers.OrderController.GetByUser (AltonikaShop.WebApi)" in 8.597ms
+2017-11-01 12:37:41.899 [Information] Request finished in 10.0673ms 200 application/json; charset=utf-8
+2017-11-01 12:37:45.494 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:37:45.495 [Information] Request finished in 1.1624ms 204 
+2017-11-01 12:37:45.501 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:37:45.502 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:37:45.505 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:37:45.506 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.6505ms
+2017-11-01 12:37:45.506 [Information] Request finished in 5.7692ms 200 application/json; charset=utf-8
+2017-11-01 12:37:56.941 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:37:56.942 [Information] Request finished in 0.6697ms 204 
+2017-11-01 12:37:56.964 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:37:56.966 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:37:56.972 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:37:56.973 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 7.1713ms
+2017-11-01 12:37:56.973 [Information] Request finished in 9.0334ms 200 application/json; charset=utf-8
+2017-11-01 12:37:59.301 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:37:59.301 [Information] Request finished in 0.5359ms 204 
+2017-11-01 12:37:59.325 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:37:59.327 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:37:59.331 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:37:59.332 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 5.5604ms
+2017-11-01 12:37:59.332 [Information] Request finished in 6.8505ms 200 application/json; charset=utf-8
+2017-11-01 12:38:00.784 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:9092/api/v1/product  
+2017-11-01 12:38:00.785 [Information] Request finished in 0.5756ms 204 
+2017-11-01 12:38:00.806 [Information] Request starting HTTP/1.1 POST http://localhost:9092/api/v1/product application/json 30
+2017-11-01 12:38:00.807 [Information] Executing action method "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" with arguments (["AltonikaShop.Application.Pagging.PaggingOptions"]) - ModelState is Valid
+2017-11-01 12:38:00.811 [Information] Executing JsonResult, writing value "AltonikaShop.Application.Pagging.PaggingResult`1[AltonikaShop.Domain.Entities.Product]".
+2017-11-01 12:38:00.811 [Information] Executed action "AltonikaShop.WebApi.Controllers.ProductController.GetAll (AltonikaShop.WebApi)" in 4.5943ms
+2017-11-01 12:38:00.812 [Information] Request finished in 5.7804ms 200 application/json; charset=utf-8
+2017-11-01 13:35:22.949 [Information] Product: 1 qwe
+2017-11-01 13:35:23.006 [Information] Product: 2 asd
+2017-11-01 13:35:23.006 [Information] Product: 3 zxc
