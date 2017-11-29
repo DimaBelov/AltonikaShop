@@ -1,12 +1,15 @@
 ﻿import { Injectable } from '@angular/core';
 import { LocalStorage } from 'nglib';
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../environments/environment';
 
 @Injectable()
 export class UserService {
     currentUserKey = 'currentUser';
 
     constructor(
-        private _localStorage: LocalStorage) {
+        private _localStorage: LocalStorage,
+        private _http: HttpClient) {
 
     }
 
@@ -24,5 +27,9 @@ export class UserService {
 
     removeCurrentUser() {
         this._localStorage.remove(this.currentUserKey);
+    }
+
+    auth(user: any) {
+        return this._http.post(environment.apiUrl + 'user', user);
     }
 }

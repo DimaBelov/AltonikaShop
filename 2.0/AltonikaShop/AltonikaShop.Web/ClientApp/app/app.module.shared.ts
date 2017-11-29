@@ -35,16 +35,35 @@ import { AppMaterialModule } from './app-material.module';
         HttpClientModule,
         HttpModule,
         RouterModule.forRoot([
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
             {
-                path: 'home',
-                children: [
-                    { path: '', component: HomeComponent, canActivate: [AuthGuard] },
-                    { path: '', component: NavMenuComponent, outlet: 'nav', canActivate: [AuthGuard] }
-                ]
-            },
-            { path: 'login', component: LoginComponent },
-            { path: 'personal', loadChildren: './modules/personal/personal.module#PersonalModule', canActivate: [AuthGuard] }
+                path: '',
+                redirectTo: 'list',
+                pathMatch: 'full'
+              },
+              {
+                path: 'login',
+                component: LoginComponent
+              },
+              {
+                path: 'list',
+                component: ListComponent,
+                canActivate: [AuthGuard]
+              },
+              {
+                path: 'card',
+                component: ProductCardComponent,
+                canActivate: [AuthGuard]
+              },
+              {
+                path: 'basket',
+                component: BasketComponent,
+                canActivate: [AuthGuard]
+              },
+              {
+                path: 'personal',
+                loadChildren: './modules/personal/personal.module#PersonalModule',
+                canActivate: [AuthGuard]
+              }
         ]),
         AppMaterialModule
     ],
